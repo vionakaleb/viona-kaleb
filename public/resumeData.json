@@ -1,0 +1,187 @@
+{
+  "main": {
+    "name":"Viona Kaleb",
+    "description":"A passionate Front-End Developer since 2018",
+    "image":"profilepic.jpg",
+    "bio":"Hello! I'm a Bachelor of Computer Science (B.Sc), and currently a postgraduate student (M.Sc). Being a Front-End Developer since 2018, I mainly use; ReactJS, NextJS, Typescript for front-end tech stack.",
+    "contactmessage":"Message me here.",
+    "email": "vionakaleb@gmail.com",
+    "phone": "",
+    "github":"https://github.com/vionakaleb",
+    "project":"https://id.linkedin.com/in/vionakaleb",
+    "address":{
+      "street":"",
+      "city":"Tangerang Selatan",
+      "state":"Banten",
+      "zip": "15336"
+    },
+    "website": "https://id.linkedin.com/in/vionakaleb",
+    "resumedownload":"https://www.behance.net/vionakaleb",
+    "social":[
+      {
+        "name":"Github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"LinkedIn",
+        "url":"https://id.linkedin.com/in/vionakaleb",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"Behance",
+        "url":"https://www.behance.net/vionakaleb",
+        "className":"fa fa-behance"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"The tasks are to: Translate designs from UI/UX, and develop them into web apps. Create logically functioning features, and integrate API data from BE.",
+    "education":[
+      {
+        "school":"President University",
+        "degree":"MSIT",
+        "graduated":"Not yet",
+        "description":"Studying Master of Computer Science in IT."
+      },
+      {
+        "school":"President University",
+        "degree":"BSIT",
+        "graduated":"2018",
+        "description":"Graduated Bachelor of Computer Science in IT."
+      },
+      {
+        "school":"SMA Negeri 1 Palu",
+        "degree":"Senior High Diploma",
+        "graduated":"2014",
+        "description":"Senior high school, science program."
+      },
+      {
+        "school":"SMP Negeri 1 Palu",
+        "degree":"Junior High Diploma",
+        "graduated":"2011",
+        "description":"Junior high school."
+      }
+    ],
+    "work":[
+      {
+        "company":"Aplikasi Super",
+        "title":"Front-End Developer",
+        "years":"March 2018 - Present",
+        "description":"Using ReactJS, Typescript, RTK Query, Redux and Hooks: Develop back-office for logistic, supply chain, and e-commerce web. Create logic functionality to consume API data from BE. Translate designs from Figma to web apps. Create unit test with Jest & React Testing Library."
+      },
+      {
+        "company":"Tristan Artha Media",
+        "title":"Front-End Developer",
+        "years":"Nov 2020 - June 2021",
+        "description":"Using ReactJS, Typescript, NextJS and Apollo GraphQL: Maintain and develop a tournament platform in both web and mobile responsive.vDevelop an admin back-office."
+      },
+      {
+        "company":"Adactive Asia",
+        "title":"Front-End Developer",
+        "years":"Mar 2020 - Dec 2020",
+        "description":"Worked fully remote on Adactive Asia, a Singapore-based company. Using ReactJS, React Hooks, LESS, Canvas, GSAP, and webOS: Create wayfinding apps for touchscreen display, installed in Singapore buildings. Develop apps for LG Smart TVs."
+      },
+      {
+        "company":"Yamisok Platform",
+        "title":"Front-End Developer",
+        "years":"May 2018 - May 2020",
+        "description":"Using VueJS, Vuex, BootstrapVue and NuxtJS: Maintain and revamp web platform for esports tournaments. Develop single-page apps for project microsites."
+      }
+    ],
+    "skills":[
+      {
+        "name":"ReactJS",
+        "level":"80%"
+      },
+      {
+        "name":"NextJS",
+        "level":"60%"
+      },
+      {
+        "name":"Typescript",
+        "level":"70%"
+      },
+      {
+        "name":"VueJS",
+        "level":"60%"
+      },
+      {
+        "name":"Redux",
+        "level":"70%"
+      },
+      {
+        "name":"Hooks",
+        "level":"70%"
+      },
+      {
+        "name":"React Query",
+        "level":"70%"
+      },
+      {
+        "name":"RTK Query",
+        "level":"70%"
+      },
+      {
+        "name":"GraphQL",
+        "level":"60%"
+      },
+      {
+        "name":"Firebase",
+        "level":"60%"
+      },
+      {
+        "name":"Tailwind",
+        "level":"80%"
+      },
+      {
+        "name":"SCSS/CSS",
+        "level":"80%"
+      },
+      {
+        "name":"Git",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Yummy Food Catalog",
+        "category":"Food Catalog",
+        "image":"FoodCatalog.png",
+        "url":""
+      },
+      {
+        "title":"Supreme Courts",
+        "category":"Wayfinding app for Supreme Courts Singapore",
+        "image":"SupremeCourts.jpg",
+        "url":""
+      },
+      {
+        "title":"Singapore Discovery Centre",
+        "category":"Wayfinding app for Singapore Discovery Centre",
+        "image":"SDC.jpg",
+        "url":""
+      },
+      {
+        "title":"Yamisok Community",
+        "category":"Yamisok - Community",
+        "image":"Yamisok.jpg",
+        "url":""
+      },
+      {
+        "title":"Yamisok Community",
+        "category":"Yamisok - Profile",
+        "image":"YamisokProfile.jpg",
+        "url":""
+      },
+      {
+        "title":"Woodsquare",
+        "category":"Wayfinding app for Woodsquare Singapore",
+        "image":"Woodsquare.jpg",
+        "url":""
+      }
+    ]
+  }
+}
