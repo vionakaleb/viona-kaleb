@@ -1,19 +1,20 @@
 {
   "main": {
     "name":"Viona Kaleb",
-    "description":"A passionate Front-End Developer since 2018",
+    "description":"A passionate Front-End Developer",
     "image":"profilepic.jpg",
-    "bio":"Hello! I'm a Bachelor of Computer Science (B.Sc), and currently a postgraduate student (M.Sc). Being a Front-End Developer since 2018, I mainly use; ReactJS, NextJS, Typescript for front-end tech stack.",
-    "contactmessage":"Message me here.",
+    "bio":"Hello, I'm Viona! A Bachelor of Computer Science (B.Sc.IT), and currently a postgraduate student (MSIT). I have been a Front-End Developer since 2018.",
+    "contactmessage":"Email me: vionakaleb@gmail.com",
     "email": "vionakaleb@gmail.com",
     "phone": "",
     "github":"https://github.com/vionakaleb",
-    "project":"https://id.linkedin.com/in/vionakaleb",
+    "project":"https://www.behance.net/gallery/71544345/Vio-Web-Portfolio",
     "address":{
       "street":"",
       "city":"Tangerang Selatan",
       "state":"Banten",
-      "zip": "15336"
+      "zip": "15336",
+      "country": "Indonesia"
     },
     "website": "https://id.linkedin.com/in/vionakaleb",
     "resumedownload":"https://www.behance.net/vionakaleb",
@@ -36,38 +37,26 @@
     ]
   },
   "resume":{
-    "skillmessage":"The tasks are to: Translate designs from UI/UX, and develop them into web apps. Create logically functioning features, and integrate API data from BE.",
+    "skillmessage":"My daily tasks are to: Translate designs from UI/UX, and develop them into web apps. Create logically functioning features, and integrate API data from BE.",
     "education":[
       {
         "school":"President University",
         "degree":"MSIT",
-        "graduated":"Not yet",
-        "description":"Studying Master of Computer Science in IT."
+        "graduated":"Now",
+        "description":"Studying Master of Science in IT."
       },
       {
         "school":"President University",
-        "degree":"BSIT",
+        "degree":"B.Sc.IT",
         "graduated":"2018",
         "description":"Graduated Bachelor of Computer Science in IT."
-      },
-      {
-        "school":"SMA Negeri 1 Palu",
-        "degree":"Senior High Diploma",
-        "graduated":"2014",
-        "description":"Senior high school, science program."
-      },
-      {
-        "school":"SMP Negeri 1 Palu",
-        "degree":"Junior High Diploma",
-        "graduated":"2011",
-        "description":"Junior high school."
       }
     ],
     "work":[
       {
         "company":"Aplikasi Super",
         "title":"Front-End Developer",
-        "years":"March 2018 - Present",
+        "years":"June 2021 - Now",
         "description":"Using ReactJS, Typescript, RTK Query, Redux and Hooks: Develop back-office for logistic, supply chain, and e-commerce web. Create logic functionality to consume API data from BE. Translate designs from Figma to web apps. Create unit test with Jest & React Testing Library."
       },
       {
@@ -80,7 +69,7 @@
         "company":"Adactive Asia",
         "title":"Front-End Developer",
         "years":"Mar 2020 - Dec 2020",
-        "description":"Worked fully remote on Adactive Asia, a Singapore-based company. Using ReactJS, React Hooks, LESS, Canvas, GSAP, and webOS: Create wayfinding apps for touchscreen display, installed in Singapore buildings. Develop apps for LG Smart TVs."
+        "description":"Worked fully remote for a Singapore-based company. Using ReactJS, React Hooks, LESS, Canvas, GSAP, and webOS: Create wayfinding apps for touchscreen display, installed in Singapore buildings. Develop apps for LG Smart TVs."
       },
       {
         "company":"Yamisok Platform",
@@ -91,16 +80,16 @@
     ],
     "skills":[
       {
+        "name":"Typescript",
+        "level":"70%"
+      },
+      {
         "name":"ReactJS",
         "level":"80%"
       },
       {
         "name":"NextJS",
         "level":"60%"
-      },
-      {
-        "name":"Typescript",
-        "level":"70%"
       },
       {
         "name":"VueJS",
@@ -145,6 +134,7 @@
     ]
   },
   "portfolio":{
+    "project":"https://www.behance.net/gallery/71544345/Vio-Web-Portfolio",
     "projects": [
       {
         "title":"Yummy Food Catalog",
@@ -171,7 +161,7 @@
         "url":""
       },
       {
-        "title":"Yamisok Community",
+        "title":"Yamisok Profile",
         "category":"Yamisok - Profile",
         "image":"YamisokProfile.jpg",
         "url":""

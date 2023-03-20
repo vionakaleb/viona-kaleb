@@ -25,8 +25,12 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
-
+              <div style={{textAlign: "center", marginBottom: "1rem"}}>
+                <h1 style={{marginBottom: "2rem"}}>Please Check Out Some of My Works!</h1>
+                <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer">
+                  More
+                </a>
+              </div>
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"

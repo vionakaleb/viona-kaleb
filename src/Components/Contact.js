@@ -12,6 +12,7 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
+    const email = this.props.data.email;
 
     return (
       <section id="contact">
@@ -24,12 +25,20 @@ class Contact extends Component {
             </div>
 
             <div className="ten columns">
-              <p className="lead">{message}</p>
+              <p style={{margin: 0}}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a onClick={() => window.open(`mailto:${email}`)} className="button">
+                  {message}
+                </a>
+              </p>
+              <p onClick={() => window.print()} style={{margin: "0 0 0 0.5rem", cursor: "pointer"}}>Or download Resume here
+              </p>
+              
             </div>
           </div>
         </Fade>
 
-        <div className="row">
+        {/* <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
@@ -116,7 +125,7 @@ class Contact extends Component {
                   <span>{phone}</span>
                 </p>
               </div>
-              {/* <div className="widget widget_tweets">
+              <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -143,10 +152,10 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div> */}
+              </div>
             </aside>
           </Slide>
-        </div>
+        </div> */}
       </section>
     );
   }
