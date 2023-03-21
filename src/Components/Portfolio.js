@@ -22,7 +22,7 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
+        {/* <Fade left duration={1000} distance="40px"> */}
           <div className="row">
             <div className="twelve columns collapsed">
               <div style={{textAlign: "center", marginBottom: "1rem"}}>
@@ -39,7 +39,7 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
-        </Fade>
+        {/* </Fade> */}
       </section>
     );
   }
