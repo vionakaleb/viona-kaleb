@@ -3,8 +3,8 @@
     "name":"Viona Kaleb",
     "description":"A passionate Front-End Developer",
     "image":"profilepic.jpg",
-    "bio":"Hello, I'm Viona! A Bachelor of Computer Science (B.Sc.IT), and currently a postgraduate student (MSIT). I have been a Front-End Developer since 2018.",
-    "contactmessage":"Email me: vionakaleb@gmail.com",
+    "bio":"Hello, I'm Viona! I have been a Front-End Developer since 2018. I graduated as Bachelor of Computer Science (B.Sc.IT), and currently a postgraduate student (MSIT).",
+    "contactmessage":"vionakaleb@gmail.com",
     "email": "vionakaleb@gmail.com",
     "phone": "",
     "github":"https://github.com/vionakaleb",
@@ -37,13 +37,13 @@
     ]
   },
   "resume":{
-    "skillmessage":"My daily tasks are to: Translate designs from UI/UX, and develop them into web apps. Create logically functioning features, and integrate API data from BE.",
+    "skillmessage":"My daily tasks are to: Translate designs from UI/UX, and develop them into web apps. Create logically functioning features, and consume data from API.",
     "education":[
       {
         "school":"President University",
         "degree":"MSIT",
         "graduated":"Now",
-        "description":"Studying Master of Science in IT."
+        "description":"Studying Postgraduate Master of Science in IT."
       },
       {
         "school":"President University",
@@ -57,25 +57,25 @@
         "company":"Aplikasi Super",
         "title":"Front-End Developer",
         "years":"June 2021 - Now",
-        "description":"Using ReactJS, Typescript, RTK Query, Redux and Hooks: Develop back-office for logistic, supply chain, and e-commerce web. Create logic functionality to consume API data from BE. Translate designs from Figma to web apps. Create unit test with Jest & React Testing Library."
+        "description":"Develop back-office for logistic, supply chain, and e-commerce web. Create features. Consume API. Translate designs from Figma. Create unit test."
       },
       {
         "company":"Tristan Artha Media",
         "title":"Front-End Developer",
         "years":"Nov 2020 - June 2021",
-        "description":"Using ReactJS, Typescript, NextJS and Apollo GraphQL: Maintain and develop a tournament platform in both web and mobile responsive.vDevelop an admin back-office."
+        "description":"Maintain and develop a tournament platform in both web and mobile responsive. Develop an admin back-office."
       },
       {
         "company":"Adactive Asia",
         "title":"Front-End Developer",
         "years":"Mar 2020 - Dec 2020",
-        "description":"Worked fully remote for a Singapore-based company. Using ReactJS, React Hooks, LESS, Canvas, GSAP, and webOS: Create wayfinding apps for touchscreen display, installed in Singapore buildings. Develop apps for LG Smart TVs."
+        "description":"Worked fully remote for a Singapore-based company. Create wayfinding apps for touchscreen display & Smart TVs, installed in buildings."
       },
       {
         "company":"Yamisok Platform",
         "title":"Front-End Developer",
         "years":"May 2018 - May 2020",
-        "description":"Using VueJS, Vuex, BootstrapVue and NuxtJS: Maintain and revamp web platform for esports tournaments. Develop single-page apps for project microsites."
+        "description":"Maintain and revamp web platform for esports tournaments. Develop single-page apps for event project microsites."
       }
     ],
     "skills":[
@@ -96,19 +96,11 @@
         "level":"60%"
       },
       {
-        "name":"Redux",
+        "name":"Redux/Hooks",
         "level":"70%"
       },
       {
-        "name":"Hooks",
-        "level":"70%"
-      },
-      {
-        "name":"React Query",
-        "level":"70%"
-      },
-      {
-        "name":"RTK Query",
+        "name":"RTK/React Query",
         "level":"70%"
       },
       {
@@ -120,11 +112,7 @@
         "level":"60%"
       },
       {
-        "name":"Tailwind",
-        "level":"80%"
-      },
-      {
-        "name":"SCSS/CSS",
+        "name":"Tailwind/SCSS",
         "level":"80%"
       },
       {
@@ -137,39 +125,81 @@
     "project":"https://www.behance.net/gallery/71544345/Vio-Web-Portfolio",
     "projects": [
       {
-        "title":"Yummy Food Catalog",
+        "title":"Yummy - Food Catalog",
         "category":"Food Catalog",
         "image":"FoodCatalog.png",
         "url":""
       },
       {
-        "title":"Supreme Courts",
-        "category":"Wayfinding app for Supreme Courts Singapore",
-        "image":"SupremeCourts.jpg",
+        "title":"Yummy - Order Management",
+        "category":"Order Management",
+        "image":"OrderManagement.png",
         "url":""
       },
       {
-        "title":"Singapore Discovery Centre",
-        "category":"Wayfinding app for Singapore Discovery Centre",
-        "image":"SDC.jpg",
+        "title":"IHSL Website",
+        "category":"IHSL",
+        "image":"IHSL.jpg",
         "url":""
       },
       {
-        "title":"Yamisok Community",
+        "title":"Firstwarrior - Schedule",
+        "category":"Firstwarrior - Community",
+        "image":"Firstwarrior.jpg",
+        "url":""
+      },
+      {
+        "title":"Firstwarrior - Blog",
+        "category":"Firstwarrior - Community",
+        "image":"Firstwarrior2.jpg",
+        "url":""
+      },
+      {
+        "title":"IESPL Website",
+        "category":"IESPL",
+        "image":"IESPL.jpg",
+        "url":""
+      },
+      {
+        "title":"Yamisok - Community",
         "category":"Yamisok - Community",
         "image":"Yamisok.jpg",
         "url":""
       },
       {
-        "title":"Yamisok Profile",
+        "title":"Yamisok - Profile",
         "category":"Yamisok - Profile",
         "image":"YamisokProfile.jpg",
         "url":""
       },
       {
-        "title":"Woodsquare",
+        "title":"Yamisok - Dashboard",
+        "category":"Yamisok - Dashboard",
+        "image":"Yamisok2.jpg",
+        "url":""
+      },
+      {
+        "title":"Supreme Courts - Wayfinding App",
+        "category":"Wayfinding app for Supreme Courts Singapore",
+        "image":"SupremeCourts.jpg",
+        "url":""
+      },
+      {
+        "title":"Singapore Discovery Centre - Wayfinding App",
+        "category":"Wayfinding app for Singapore Discovery Centre",
+        "image":"SDC.jpg",
+        "url":""
+      },
+      {
+        "title":"Woodsquare - Wayfinding App",
         "category":"Wayfinding app for Woodsquare Singapore",
         "image":"Woodsquare.jpg",
+        "url":""
+      },
+      {
+        "title":"Ecommerce Mobile Webview",
+        "category":"Ecommerce app for Superagen",
+        "image":"Superagen.png",
         "url":""
       }
     ]
