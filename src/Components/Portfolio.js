@@ -26,8 +26,8 @@ class Portfolio extends Component {
           <div className="row">
             <div className="twelve columns collapsed">
               <div style={{textAlign: "center", marginBottom: "1rem"}}>
-                <h1 style={{marginBottom: "2rem"}}>Please Check Out Some of My Works!</h1>
-                <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer">
+                <h1 style={{marginBottom: "1rem"}}><i class="fa fa-folder-open"/> Some of My Works</h1>
+                <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer" style={{padding: "0 10px", fontSize: "small"}}>
                   More
                 </a>
               </div>

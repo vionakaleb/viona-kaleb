@@ -20,15 +20,15 @@ class Contact extends Component {
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Get In Touch.</span>
+                <span>Get In Touch</span>
               </h1>
             </div>
 
             <div className="ten columns">
-              <p style={{margin: 0}}>
+              <p style={{margin: 0, width: "100%"}}>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a onClick={() => window.open(`mailto:${email}`)} className="button">
-                  {message}
+                <a onClick={() => window.open(`mailto:${email}`)} className="button" style={{width: "100%"}}>
+                  <i class="fa fa-envelope" aria-hidden="true"></i> {message}
                 </a>
               </p>
               <p onClick={() => window.print()} style={{margin: "0 0 0 0.5rem", cursor: "pointer"}}>Or download Resume here
