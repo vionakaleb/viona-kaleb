@@ -37,7 +37,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"My daily tasks are to: Translate designs from UI/UX, and develop them into web apps. Create logically functioning features, and consume data from API.",
+    "skillmessage":"My daily tasks are to: Translate designs from Figma, and develop them into web apps. Create logically functioning features, and integrate API data.",
     "education":[
       {
         "school":"President University",
@@ -57,47 +57,79 @@
         "company":"Aplikasi Super",
         "title":"Front-End Developer",
         "years":"June 2021 - Now",
-        "description":"Develop back-office for logistic, supply chain, and e-commerce web. Create features. Consume API. Translate designs from Figma. Create unit test."
+        "description":"Develop back-office for logistic, supply chain, and e-commerce web. Create features & integrate API. Translate designs from Figma. Create unit test.",
+        "skills":["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"]
+      },
+      {
+        "company":"Yummy Corp",
+        "title":"Front-End Developer",
+        "years":"June 2022 - March 2023",
+        "description":"Develop Order Management System, Asset Management, food catalog website. Create features & integrate API. Translate designs from Figma.",
+        "skills": ["TypeScript" , "NextJS" , "React Query" , "React Hooks" , "GraphQL"]
+      },
+      {
+        "company":"Indolima Perkasa",
+        "title":"Front-End Developer",
+        "years":"June 2021 - June 2022",
+        "description":"Develop a Distribution Management System. Create features & integrate API. Translate designs from wireframe.",
+        "skills": ["ReactJS" , "Redux" , "Hooks"]
       },
       {
         "company":"Tristan Artha Media",
         "title":"Front-End Developer",
         "years":"Nov 2020 - June 2021",
-        "description":"Maintain and develop a tournament platform in both web and mobile responsive. Develop an admin back-office."
+        "description":"Maintain and develop a tournament platform in both web and mobile responsive. Develop an admin back-office.",
+        "skills": ["NextJS" , "ReactJS" , "Angular" , "Apollo GraphQL"]
       },
       {
         "company":"Adactive Asia",
         "title":"Front-End Developer",
         "years":"Mar 2020 - Dec 2020",
-        "description":"Worked fully remote for a Singapore-based company. Create wayfinding apps for touchscreen display & Smart TVs, installed in buildings."
+        "description":"Worked fully remote for a Singapore-based company. Create wayfinding apps for touchscreen display & Smart TVs, installed in buildings.",
+        "skills":["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"]
       },
       {
         "company":"Yamisok Platform",
         "title":"Front-End Developer",
         "years":"May 2018 - May 2020",
-        "description":"Maintain and revamp web platform for esports tournaments. Develop single-page apps for event project microsites."
+        "description":"Maintain and revamp web platform for esports tournaments. Develop single-page apps for event project microsites.",
+        "skills":["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"]
+      },
+      {
+        "company":"Jababeka",
+        "title":"IT Intern",
+        "years":"Jan 2018 - Apr 2020",
+        "description":"Troubleshooting computers. Solve ticketing requests from employees. Maintain company softwares.",
+        "skills":["IT" , "Hardware" , "Networking"]
+      },
+      {
+        "company":"BMICG",
+        "title":"Front-End Developer",
+        "years":"May 2018 - May 2020",
+        "description":"Maintain and revamp project websites.",
+        "skills":["PHP" , "CodeIgniter" , "jQuery"]
       }
     ],
     "skills":[
       {
         "name":"Typescript",
-        "level":"70%"
-      },
-      {
-        "name":"ReactJS",
         "level":"80%"
       },
       {
+        "name":"ReactJS",
+        "level":"90%"
+      },
+      {
         "name":"NextJS",
-        "level":"60%"
+        "level":"80%"
       },
       {
         "name":"VueJS",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"Redux/Hooks",
-        "level":"70%"
+        "level":"80%"
       },
       {
         "name":"RTK/React Query",
@@ -105,15 +137,15 @@
       },
       {
         "name":"GraphQL",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"Firebase",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"Tailwind/SCSS",
-        "level":"80%"
+        "level":"90%"
       },
       {
         "name":"Git",

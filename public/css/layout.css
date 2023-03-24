@@ -230,6 +230,10 @@ ul#nav li.current a { color: #fe6928; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
+.m-0 { margin: 0;}
+.mb-1 { margin-bottom: 10px;}
+.mb-2 { margin-bottom: 40px;}
+
 #resume {
    background: #fff;
    padding-top: 90px;
@@ -275,6 +279,44 @@ ul#nav li.current a { color: #fe6928; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+#resume .skill-container {
+   display: "flex";
+   flex-direction: column;
+}
+#resume .skill-labels {
+   position: relative;
+   display: inline-block;
+   border-radius: 6px;
+   clip-path: polygon(20px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 20px);
+   background: #838C95;
+   padding: 0 5px 0 11px;
+   margin: 0 4px;
+   line-height: 20px;
+   font-size: 11px;
+   color: #FFFFFF;
+   transition: clip-path 500ms;
+}
+
+#resume .skill-labels:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 20px;
+   height: 20px;
+   background: #bbc1c7;
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
+   border-radius: 0 0 6px 0;
+   transition: transform 500ms;
+ }
+ 
+ #resume .skill-labels:hover {
+   clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 0px);
+ }
+ 
+ #resume .skill-labels:hover:after {
+   transform: translate(-100%, -100%);
+ }
 
 /*----------------------------------------------*/
 /*	Skill Bars

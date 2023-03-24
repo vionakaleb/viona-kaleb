@@ -36,7 +36,14 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p className="mb-1">{work.description}</p>
+          <div className="skill-container mb-2">
+            {work?.skills?.map(skill =>
+              <div class="skill-labels">
+                ✔ {skill}
+              </div>
+            )}
+          </div>
         </div>
       );
     });
