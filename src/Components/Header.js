@@ -9,7 +9,7 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
-    // const project = this.props.data.project;
+    const linkedin = this.props.data.linkedin;
 
     return (
       <header id="home">
@@ -70,9 +70,9 @@ class Header extends Component {
                 <a href={github} target="_blank" className="button btn github-btn" rel="noreferrer">
                   <i className="fa fa-github"></i>Github
                 </a>
-                {/* <a href={project} target="_blank" className="button btn project-btn">
-                  <i className="fa fa-picture-o"></i>Portfolio
-                </a> */}
+                <a href={linkedin} target="_blank" className="button btn linkedin-btn" rel="noreferrer">
+                  <i className="fa fa-linkedin"></i>LinkedIn
+                </a>
               </ul>
             </Fade>
           </div>

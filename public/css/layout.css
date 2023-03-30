@@ -838,8 +838,8 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #0762f9; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #868686; }
+#contact a:hover, #contact a:focus { color: #0762f9; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -990,6 +990,13 @@ footer .copyright li {
     padding: 0;
     line-height: 24px;
 }
+.copyright-name {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   line-height: 24px;
+   color: #868686;
+}
 .ie footer .copyright li {
    display: inline;
 }
@@ -1049,7 +1056,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
 .social .btn:first-child{
-   /* margin-right: 30px; */
+   margin-right: 10px;
 }
 .social .btn{
    padding-left: 30px;
@@ -1063,4 +1070,13 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+.github-btn:hover{
+   background-color: #052d56 !important;
+}
+.linkedin-btn{
+   background-color: #0a66c2 !important;
+}
+.linkedin-btn:hover{
+   background-color: #052d56 !important;
 }

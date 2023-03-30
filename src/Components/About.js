@@ -5,13 +5,15 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
+    const fullname = this.props.data.fullname;
     const profilepic = "images/" + this.props.data.image;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
     const country = this.props.data.address.country;
+    const gmaps = this.props.data.address.gmaps;
     const email = this.props.data.email;
+    const linkedin = this.props.data.linkedin;
     // const state = this.props.data.address.state;
     // const zip = this.props.data.address.zip;
     // const phone = this.props.data.phone;
@@ -25,7 +27,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Viona Kaleb Profile Pic"
+                alt="Viona Z. A. Kaleb Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
@@ -36,16 +38,23 @@ class About extends Component {
                 <div className="columns contact-details">
                   <h2><i class="fa fa-info-circle" aria-hidden="true"/> Contact Details</h2>
                   <p className="address">
-                    <span>{name}</span>
+                      <span>
+                        <a href={linkedin} target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>
+                          {fullname}
+                        </a>
+                      </span>
                     <br />
                     <span>
-                      {street && <>{street}<br /></>}
-                      {city}, {country}
+                      <a href={gmaps} target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>
+                        {street && <>{street}<br /></>}
+                        {city}, {country}
+                      </a>
                     </span>
                     <br />
                     {/* <span>{phone}</span>
                     <br /> */}
-                    <span>{email}</span>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                    <a onClick={() => window.open(`mailto:${email}`)} style={{cursor: "pointer"}}>{email}</a>
                   </p>
                 </div>
               </div>

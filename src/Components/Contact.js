@@ -31,7 +31,8 @@ class Contact extends Component {
                   <i class="fa fa-envelope" aria-hidden="true"></i> {message}
                 </a>
               </p>
-              <p onClick={() => window.print()} style={{margin: "0 0 0 0.5rem", cursor: "pointer"}}>Or download Resume here
+              <p style={{margin: "0 0 0 0.5rem", cursor: "pointer"}}>
+                <a href="https://linkedin.com/in/vionakaleb" target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>Or reach me on LinkedIn.</a>
               </p>
               
             </div>

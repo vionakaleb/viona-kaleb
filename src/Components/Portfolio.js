@@ -24,10 +24,10 @@ class Portfolio extends Component {
         {/* <Fade left duration={1000} distance="40px"> */}
           <div className="row">
             <div className="twelve columns collapsed">
-              <div style={{textAlign: "center", marginBottom: "1rem"}}>
-                <h1 style={{marginBottom: "1rem"}}><i class="fa fa-folder-open"/> Some of My Works</h1>
+              <div style={{textAlign: "center", marginBottom: "2rem"}}>
+                <h1 style={{marginBottom: "2rem"}}><i class="fa fa-folder-open"/> Some of My Works</h1>
                 <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer" style={{padding: "0 10px", fontSize: "small"}}>
-                  More
+                  More Portfolio
                 </a>
               </div>
               <div

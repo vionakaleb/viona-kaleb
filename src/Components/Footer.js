@@ -23,9 +23,8 @@ class Footer extends Component {
               {/* <ul className="social-links">{networks}</ul> */}
 
               <ul className="copyright">
-                <li>&copy; Viona Zatil Aqmar Kaleb</li>
+                <li className="copyright-name">&copy; Viona Zatil Aqmar Kaleb</li>
                 <li>
-                  Design by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
                     Styleshout
                   </a>
