@@ -4,13 +4,10 @@
     "fullname":"Viona Zatil Aqmar Kaleb",
     "description":"A passionate Front-End Developer",
     "image":"profilepic.jpg",
-    "bio":"Hello, I'm Viona! I have been a Front-End Developer since 2018. I graduated as Bachelor of Computer Science (B.Sc.IT), and currently a postgraduate student (MSIT).",
+    "bio":"Hello, I'm Viona! I've been a Front-End Developer since 2018. Mainly, I use ReactJS, NextJS, Typescript for the tech stacks. I graduated as Bachelor of Science (B.Sc.IT), and currently a postgraduate student (MSIT).",
     "contactmessage":"vionakaleb@gmail.com",
     "email": "vionakaleb@gmail.com",
     "phone": "",
-    "github":"https://github.com/vionakaleb",
-    "linkedin":"https://linkedin.com/in/vionakaleb",
-    "project":"https://behance.net/gallery/71544345/Vio-Web-Portfolio",
     "address":{
       "street":"",
       "city":"Tangerang Selatan",
@@ -19,28 +16,31 @@
       "country": "Indonesia",
       "gmaps": "https://www.google.com/maps/place/Tangerang+Selatan,+Kota+Tangerang+Selatan,+Banten/@-6.2954984,106.6382717,12z/data=!3m1!4b1!4m6!3m5!1s0x2e69fab10419c095:0x8706481c2c4aafe4!8m2!3d-6.2835218!4d106.7112933!16s%2Fm%2F05msbv3"
     },
-    "website": "https://linkedin.com/in/vionakaleb",
-    "resumedownload":"https://behance.net/gallery/71544345/Vio-Web-Portfolio",
     "social":[
       {
         "name":"Github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/vionakaleb",
         "className":"fa fa-github"
       },
       {
         "name":"LinkedIn",
-        "url":"https://id.linkedin.com/in/vionakaleb",
+        "url":"https://linkedin.com/in/vionakaleb",
         "className":"fa fa-linkedin"
       },
       {
         "name":"Behance",
-        "url":"https://www.behance.net/vionakaleb",
+        "url":"https://behance.net/gallery/71544345/Vio-Web-Portfolio",
         "className":"fa fa-behance"
+      },
+      {
+        "name":"Email",
+        "url":"vionakaleb@gmail.com",
+        "className":"fa fa-envelope"
       }
     ]
   },
   "resume":{
-    "skillmessage":"My daily tasks are to: Translate designs from Figma, and develop them into web apps. Create logically functioning features, and integrate API data.",
+    "skillmessage":"My daily tasks are to: Translate designs from Figma, develop them into web apps, create logically functioning features, integrate API data, and creating unit tests.",
     "education":[
       {
         "school":"President University",
@@ -157,7 +157,7 @@
     ]
   },
   "portfolio":{
-    "project":"https://www.behance.net/gallery/71544345/Vio-Web-Portfolio",
+    "project":"https://behance.net/gallery/71544345/Vio-Web-Portfolio",
     "projects": [
       {
         "title":"Yummy - Food Catalog",
