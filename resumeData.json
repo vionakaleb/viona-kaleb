@@ -10,11 +10,11 @@
     "phone": "",
     "address":{
       "street":"",
-      "city":"Tangerang Selatan",
+      "city":"Tangerang Regency",
       "state":"Banten",
       "zip": "15336",
       "country": "Indonesia",
-      "gmaps": "https://www.google.com/maps/place/Tangerang+Selatan,+Kota+Tangerang+Selatan,+Banten/@-6.2954984,106.6382717,12z/data=!3m1!4b1!4m6!3m5!1s0x2e69fab10419c095:0x8706481c2c4aafe4!8m2!3d-6.2835218!4d106.7112933!16s%2Fm%2F05msbv3"
+      "gmaps": "https://www.google.com/maps/place/Kabupaten+Tangerang,+Banten/@-6.1818662,106.3924998,11z/data=!3m1!4b1!4m6!3m5!1s0x2e69ffb6b0ad7ae3:0x301576d14feb9b0!8m2!3d-6.1870007!4d106.487658!16zL20vMGdicjht"
     },
     "social":[
       {
