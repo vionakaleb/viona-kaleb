@@ -10,11 +10,11 @@ class About extends Component {
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
     const country = this.props.data.address.country;
     const gmaps = this.props.data.address.gmaps;
     const email = this.props.data.social?.find(soc => soc.name === "Email")?.url;
     const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn")?.url;
+    // const state = this.props.data.address.state;
     // const zip = this.props.data.address.zip;
     // const phone = this.props.data.phone;
     // const resumeDownload = this.props.data.social?.find(soc => soc.name === "Behance")?.url;
@@ -47,7 +47,7 @@ class About extends Component {
                     <span>
                       <a href={gmaps} target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>
                         {street && <>{street}<br /></>}
-                        {city}, {state}, {country}
+                        {city}, {country}
                       </a>
                     </span>
                     <br />
