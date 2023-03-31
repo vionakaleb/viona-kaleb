@@ -12,12 +12,12 @@ class About extends Component {
     const city = this.props.data.address.city;
     const country = this.props.data.address.country;
     const gmaps = this.props.data.address.gmaps;
-    const email = this.props.data.email;
-    const linkedin = this.props.data.linkedin;
+    const email = this.props.data.social?.find(soc => soc.name === "Email")?.url;
+    const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn")?.url;
     // const state = this.props.data.address.state;
     // const zip = this.props.data.address.zip;
     // const phone = this.props.data.phone;
-    // const resumeDownload = this.props.data.resumedownload;
+    // const resumeDownload = this.props.data.social?.find(soc => soc.name === "Behance")?.url;
 
     return (
       <section id="about">

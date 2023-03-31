@@ -6,7 +6,7 @@ class Contact extends Component {
     if (!this.props.data) return null;
     
     const message = this.props.data.contactmessage;
-    const email = this.props.data.email;
+    const email = this.props.data.social?.find(soc => soc.name === "Email")?.url;
     // const name = this.props.data.name;
     // const street = this.props.data.address.street;
     // const city = this.props.data.address.city;

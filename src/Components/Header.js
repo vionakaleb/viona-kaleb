@@ -6,10 +6,10 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const github = this.props.data.github;
+    const github = this.props.data.social?.find(soc => soc.name === "Github");
+    const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn");
     const name = this.props.data.name;
     const description = this.props.data.description;
-    const linkedin = this.props.data.linkedin;
 
     return (
       <header id="home">
@@ -67,11 +67,11 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={github} target="_blank" className="button btn github-btn" rel="noreferrer">
-                  <i className="fa fa-github"></i>Github
+                <a href={github?.url} target="_blank" className="button btn github-btn" rel="noreferrer">
+                  <i className={github?.className}></i>Github
                 </a>
-                <a href={linkedin} target="_blank" className="button btn linkedin-btn" rel="noreferrer">
-                  <i className="fa fa-linkedin"></i>LinkedIn
+                <a href={linkedin?.url} target="_blank" className="button btn linkedin-btn" rel="noreferrer">
+                  <i className={linkedin?.className}></i>LinkedIn
                 </a>
               </ul>
             </Fade>
