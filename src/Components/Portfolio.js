@@ -42,8 +42,8 @@ class Portfolio extends Component {
               </div>
               <div style={{textAlign: "center", paddingTop: "4rem"}}>
                 <h1 style={{marginBottom: "4rem"}}><i class="fa fa-folder-open"/> Work Projects</h1>
-                <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer" style={{padding: "5px 20px", fontSize: "small"}}>
-                  See More
+                <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer" style={{padding: "5px 20px", marginBottom: "4rem", fontSize: "small"}}>
+                  More Portfolio
                 </a>
                 <div
                 id="portfolio-wrapper"
