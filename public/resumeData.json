@@ -158,6 +158,18 @@
   },
   "portfolio":{
     "project":"https://behance.net/gallery/71544345/Vio-Web-Portfolio",
+    "project_web": [
+      {
+        "name": "Company Management",
+        "url": "https://vionakaleb.github.io/company-management",
+        "technology": ["ReactJS", "Typescript", "Redux", "Tailwind"]
+      },
+      {
+        "name": "Chat App",
+        "url": "https://vionakaleb.github.io/chat-app",
+        "technology": ["ReactJS", "Socket.IO", "Tailwind"]
+      }
+    ],
     "projects": [
       {
         "title":"Yummy - Food Catalog",

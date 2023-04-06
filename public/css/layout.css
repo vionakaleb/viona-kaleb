@@ -279,11 +279,11 @@ ul#nav li.current a { color: #fe6928; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
-#resume .skill-container {
+.skill-container {
    display: "flex";
    flex-direction: column;
 }
-#resume .skill-labels {
+.skill-labels {
    position: relative;
    display: inline-block;
    border-radius: 6px;
@@ -297,7 +297,7 @@ ul#nav li.current a { color: #fe6928; }
    transition: clip-path 500ms;
 }
 
-#resume .skill-labels:after {
+.skill-labels:after {
    content: '';
    position: absolute;
    top: 0;
@@ -310,11 +310,11 @@ ul#nav li.current a { color: #fe6928; }
    transition: transform 500ms;
  }
  
- #resume .skill-labels:hover {
+ .skill-labels:hover {
    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 0px);
  }
  
- #resume .skill-labels:hover:after {
+ .skill-labels:hover:after {
    transform: translate(-100%, -100%);
  }
 
