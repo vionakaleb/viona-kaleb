@@ -4,7 +4,17 @@
     "fullname":"Viona Zatil Aqmar Kaleb",
     "description":"A passionate Front-End Developer",
     "image":"profilepic.jpg",
-    "bio":"Hello, I'm Viona! I've been a Front-End Developer since 2018. Mainly, I use ReactJS, NextJS, Typescript for the tech stacks. I graduated as Bachelor of Science (B.Sc.IT), and currently a postgraduate student (MSIT).",
+    "bios":[
+      "Hello, I've been a Front-End Developer since 2018.",
+      "For the tech stacks, I use ReactJS, NextJS, and Typescript.",
+      "Graduated as Bachelor of Science (B.Sc.IT), I'm currently a postgraduate student (MSIT)."
+    ],
+    "bios2":[
+      "My daily tasks are to:", 
+      "- Translate designs from Figma, develop them into web apps.",
+      "- Create logically functioning features, integrate API data.", 
+      "- Also creating unit tests."
+    ],
     "contactmessage":"vionakaleb@gmail.com",
     "email": "vionakaleb@gmail.com",
     "phone": "",
@@ -40,7 +50,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"My daily tasks are to: Translate designs from Figma, develop them into web apps, create logically functioning features, integrate API data, and creating unit tests.",
+    "skillmessages":[],
     "education":[
       {
         "school":"President University",
@@ -60,49 +70,85 @@
         "company":"Aplikasi Super",
         "title":"Front-End Developer",
         "years":"June 2021 - Now",
-        "description":"Develop back-office for logistic, supply chain, and e-commerce web. Create features & integrate API. Translate designs from Figma. Create unit test.",
+        "description":"",
+        "descriptions":[
+          "Develop back-office for logistic, supply chain, and e-commerce web." , 
+          "Create features & integrate API. Translate designs from Figma.",
+          "Create unit test with Jest & React Testing Library."
+        ],
         "skills":["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"]
       },
       {
         "company":"Yummy Corp",
         "title":"Front-End Developer",
         "years":"June 2022 - March 2023",
-        "description":"Develop Order Management System, Asset Management, food catalog website. Create features & integrate API. Translate designs from Figma.",
+        "description":"",
+        "descriptions":[
+          "Develop Order Management System.",
+          "Develop Asset Management.",
+          "Develop food catalog website.",
+          "Create features & integrate API. Translate designs from Figma."
+
+        ],
         "skills": ["TypeScript" , "NextJS" , "React Query" , "React Hooks" , "GraphQL"]
       },
       {
         "company":"Indolima Perkasa",
         "title":"Front-End Developer",
         "years":"June 2021 - June 2022",
-        "description":"Develop a Distribution Management System. Create features & integrate API. Translate designs from wireframe.",
+        "description":"",
+        "descriptions":[
+          "Develop a Distribution Management System." , 
+          "Create features & integrate API. Translate designs from wireframe."
+        ],
         "skills": ["ReactJS" , "Redux" , "Hooks"]
       },
       {
         "company":"Tristan Artha Media",
         "title":"Front-End Developer",
         "years":"Nov 2020 - June 2021",
-        "description":"Maintain and develop a tournament platform in both web and mobile responsive. Develop an admin back-office.",
+        "description":"",
+        "descriptions":[
+          "Maintain and develop a tournament platform in both web and mobile responsive.",
+          "Develop an admin back-office.",
+          "Create features & integrate API. Translate designs."
+        ],
         "skills": ["NextJS" , "ReactJS" , "Angular" , "Apollo GraphQL"]
       },
       {
         "company":"Adactive Asia",
         "title":"Front-End Developer",
         "years":"Mar 2020 - Dec 2020",
-        "description":"Worked fully remote for a Singapore-based company. Create wayfinding apps for touchscreen display & Smart TVs, installed in buildings.",
+        "description":"Worked fully remote on a Singapore-based company.",
+        "descriptions":[
+          "Create wayfinding apps for touchscreen display, installed in Singapore buildings.",
+          "Create features & integrate CMS. Translate designs.",
+          "Develop apps for LG Smart TVs."
+        ],
         "skills":["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"]
       },
       {
         "company":"Yamisok Platform",
         "title":"Front-End Developer",
         "years":"May 2018 - May 2020",
-        "description":"Maintain and revamp web platform for esports tournaments. Develop single-page apps for event project microsites.",
+        "description":"",
+        "descriptions":[
+          "Maintain and revamp web platform for esports tournaments.",
+          "Develop single-page apps for project microsites.",
+          "Integrate API. Translate designs."
+        ],
         "skills":["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"]
       },
       {
         "company":"Jababeka",
         "title":"IT Intern",
         "years":"Jan 2018 - Apr 2020",
-        "description":"Troubleshooting computers. Solve ticketing requests from employees. Maintain company softwares.",
+        "description":"",
+        "descriptions":[
+          "Troubleshooting computers.",
+          "Solve ticketing requests from employees.",
+          "Maintain some company softwares."
+        ],
         "skills":["IT" , "Hardware" , "Networking"]
       },
       {
@@ -110,6 +156,7 @@
         "title":"Front-End Developer",
         "years":"May 2018 - May 2020",
         "description":"Maintain and revamp project websites.",
+        "descriptions":[],
         "skills":["PHP" , "CodeIgniter" , "jQuery"]
       }
     ],
