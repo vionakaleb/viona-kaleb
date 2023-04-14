@@ -14,7 +14,7 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
+    const skillmessage = this.props.data.skillmessages;
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -36,8 +36,16 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p className="mb-1">{work.description}</p>
-          <div className="skill-container mb-2">
+          {work.description &&
+            <p className="mb-1">
+              {work.description}
+            </p>}
+          <ul style={{listStyleType:"disc", marginLeft: "1.5rem"}} className="mb-1">
+            {work.descriptions?.map(desc => 
+              <li>{desc}</li>
+            )}
+          </ul>
+          <div className="skill-container mb-4">
             {work?.skills?.map(skill =>
               <div class="skill-labels">
                 ✔ {skill}
@@ -100,8 +108,11 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
+              {skillmessage.length > 0 && 
+                <div className="mb-3">
+                  {skillmessage?.map(b => <p className="m-0">{b}</p>)}
+                </div>
+              }
               <div className="bars">
                 <ul className="skills">{skills}</ul>
               </div>

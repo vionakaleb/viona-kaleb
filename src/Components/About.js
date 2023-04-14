@@ -7,7 +7,8 @@ class About extends Component {
 
     const fullname = this.props.data.fullname;
     const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
+    const bios = this.props.data.bios;
+    const bios2 = this.props.data.bios2;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
     const country = this.props.data.address.country;
@@ -32,9 +33,17 @@ class About extends Component {
             </div>
             <div className="nine columns main-col">
               <h2><i class="fa fa-user"/> About Me</h2>
-
-              <p>{bio}</p>
-              <div className="row">
+              {bios && 
+                <div>
+                  {bios?.map(b => <p className="m-0">{b}</p>)}
+                </div>
+              }
+              {bios2 && 
+                <div className="mt-2">
+                  {bios2?.map(b => <p className="m-0">{b}</p>)}
+                </div>
+              }
+              <div className="row mt-3">
                 <div className="columns contact-details">
                   <h2><i class="fa fa-info-circle" aria-hidden="true"/> Contact Details</h2>
                   <p className="address">

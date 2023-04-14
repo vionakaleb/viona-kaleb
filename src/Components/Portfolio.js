@@ -30,7 +30,7 @@ class Portfolio extends Component {
                   <div key={id} style={{marginBottom: "2rem"}}>
                     <h5>{work.name}</h5>
                     <p className="mb-1"><a href={work.url} target="_blank" rel="noreferrer">{work.url}</a></p>
-                    <div className="skill-container mb-2">
+                    <div className="skill-container mb-4">
                       {work?.technology?.map(skill =>
                         <div class="skill-labels">
                           ✔ {skill}
