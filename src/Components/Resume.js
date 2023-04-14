@@ -39,12 +39,15 @@ class Resume extends Component {
           {work.description &&
             <p className="mb-1">
               {work.description}
-            </p>}
-          <ul style={{listStyleType:"disc", marginLeft: "1.5rem"}} className="mb-1">
-            {work.descriptions?.map(desc => 
-              <li>{desc}</li>
-            )}
-          </ul>
+            </p>
+          }
+          {work.descriptions && 
+            <ul style={{listStyleType:"disc", marginLeft: "1.5rem"}} className="mb-2">
+              {work.descriptions?.map(desc => 
+                <li>{desc}</li>
+              )}
+            </ul>
+          }
           <div className="skill-container mb-4">
             {work?.skills?.map(skill =>
               <div class="skill-labels">
