@@ -6,7 +6,7 @@ class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const projects = this.props.data.projects.map(function (projects) {
+      const projects = this.props.data.projects.map((projects) => {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
@@ -32,6 +32,19 @@ class Portfolio extends Component {
           <div className="row">
             <div className="twelve columns collapsed">
               <div style={{textAlign: "center", paddingBottom: "4rem", marginBottom: "4rem", borderBottom: "1px dashed #95A3A3"}}>
+                <h1 style={{marginBottom: "4rem"}}><i class="fa fa-folder-open"/> Work Projects</h1>
+                <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer" style={{padding: "5px 20px", marginBottom: "4rem", fontSize: "small"}}>
+                  More Portfolio
+                </a>
+                <div
+                  id="portfolio-wrapper"
+                  className="bgrid-quarters s-bgrid-thirds cf"
+                >
+                  {projects}
+                </div>
+              </div>
+
+              <div style={{textAlign: "center", paddingTop: "4rem"}}>
                 <h1 style={{marginBottom: "4rem"}}><i class="fa fa-folder-open"/> Personal Projects</h1>
                 {this.props.data.project_web.map((work, id) =>
                   <div key={id} className="mb-6">
@@ -53,18 +66,6 @@ class Portfolio extends Component {
                     </div>
                   </div>
                 )}
-              </div>
-              <div style={{textAlign: "center", paddingTop: "4rem"}}>
-                <h1 style={{marginBottom: "4rem"}}><i class="fa fa-folder-open"/> Work Projects</h1>
-                <a href={this.props.data.project} target="_blank" className="button btn github-btn" rel="noreferrer" style={{padding: "5px 20px", marginBottom: "4rem", fontSize: "small"}}>
-                  More Portfolio
-                </a>
-                <div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
-                {projects}
-              </div>
               </div>
             </div>
           </div>

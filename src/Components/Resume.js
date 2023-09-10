@@ -14,8 +14,9 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessages;
-    const education = this.props.data.education.map(function (education) {
+    const { skillmessages: skillmessage } = this.props.data;
+
+    const education = this.props.data.education.map((education) => {
       return (
         <div key={education.school} className="flex-row gap-2">
           <img
@@ -35,7 +36,7 @@ class Resume extends Component {
       );
     });
 
-    const work = this.props.data.work.map(function (work) {
+    const work = this.props.data.work.map((work) => {
       return (
         <div key={work.company} className="mb-6">
           <div className="flex-row gap-2">
@@ -91,6 +92,18 @@ class Resume extends Component {
     return (
       <section id="resume">
         <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <i class="fa fa-briefcase"/> <span>Work</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{work}</div>
+          </div>
+        </Slide>
+
+        <Slide right duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -103,18 +116,6 @@ class Resume extends Component {
                 <div className="twelve columns">{education}</div>
               </div>
             </div>
-          </div>
-        </Slide>
-
-        <Slide right duration={1300}>
-          <div className="row work">
-            <div className="three columns header-col">
-              <h1>
-                <i class="fa fa-briefcase"/> <span>Work</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
 

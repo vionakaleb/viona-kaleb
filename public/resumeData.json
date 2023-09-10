@@ -6,7 +6,7 @@
     "image":"profilepic.jpg",
     "bg": "profile-bg.JPG",
     "bios":[
-      "Hello, I've been a Front-End Developer since 2018. I mainly use ReactJS, NextJS, and Typescript.",
+      "Hello, I've been a Front-End Developer since 2018. I mainly use React.js and Typescript.",
       "Graduated as Bachelor of Science (B.Sc.IT), I'm currently a postgraduate student (MSIT)."
     ],
     "bios2":[
@@ -14,6 +14,18 @@
       "- Translate designs from Figma, develop them into web apps.",
       "- Create logically functioning features, integrate API data.", 
       "- Also creating unit tests."
+    ],
+    "bios3":[
+      "Skills in Software Development: ",
+      "- FE: React.js, Typescript, Next.js, Vue.js, Angular.js. ",
+      "- BE: Few experience in .NET, Express.js, PHP & GraphQL.",
+      "- Data Analysis: Few experience in Python & Power BI.",
+      "- Redux, Hooks, RTK Query, Unstated Next, Vuex. ",
+      "- Axios, GraphQL, Firebase. ",
+      "- Tailwind, SCSS/SASS, LESS. ",
+      "- Material UI, Ant Design, Bootstrap, Nuxt, Foundation. ",
+      "- Jest, React Testing Library.",
+      "- Git, Postman, Jira, Trello."
     ],
     "contactmessage":"vionakaleb@gmail.com",
     "email": "vionakaleb@gmail.com",

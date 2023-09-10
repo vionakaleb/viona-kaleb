@@ -5,19 +5,25 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const fullname = this.props.data.fullname;
+    const { 
+      fullname, 
+      bios, 
+      bios2, 
+      bios3, 
+      address: {
+        street,
+        city,
+        country, 
+        gmaps,
+        // state,
+        // zip,
+      }, 
+      // phone,
+    } = this.props.data;
+
     const profilepic = "images/" + this.props.data.image;
-    const bios = this.props.data.bios;
-    const bios2 = this.props.data.bios2;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const country = this.props.data.address.country;
-    const gmaps = this.props.data.address.gmaps;
     const email = this.props.data.social?.find(soc => soc.name === "Email")?.url;
     const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn")?.url;
-    // const state = this.props.data.address.state;
-    // const zip = this.props.data.address.zip;
-    // const phone = this.props.data.phone;
     // const resumeDownload = this.props.data.social?.find(soc => soc.name === "Behance")?.url;
 
     return (
@@ -41,6 +47,11 @@ class About extends Component {
               {bios2 && 
                 <div className="mt-2">
                   {bios2?.map(b => <p className="m-0">{b}</p>)}
+                </div>
+              }
+              {bios3 && 
+                <div className="mt-2">
+                  {bios3?.map(b => <p className="m-0">{b}</p>)}
                 </div>
               }
               <div className="row mt-3">

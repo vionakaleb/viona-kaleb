@@ -4,15 +4,21 @@ import { Fade } from "react-reveal";
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
+
+    const {
+      contactmessage: message,
+      // name,
+      // phone,
+      // address: {
+        // street,
+        // city,
+        // state,
+        // zip,
+      // }, 
+    } = this.props.data;
     
-    const message = this.props.data.contactmessage;
     const email = this.props.data.social?.find(soc => soc.name === "Email")?.url;
-    // const name = this.props.data.name;
-    // const street = this.props.data.address.street;
-    // const city = this.props.data.address.city;
-    // const state = this.props.data.address.state;
-    // const zip = this.props.data.address.zip;
-    // const phone = this.props.data.phone;
+    const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn");
 
     return (
       <section id="contact">
@@ -32,9 +38,12 @@ class Contact extends Component {
                 </a>
               </p>
               <p style={{margin: "0 0 0 0.5rem", cursor: "pointer"}}>
-                <a href="https://linkedin.com/in/vionakaleb" target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>Or reach me on LinkedIn.</a>
+                Or reach me
+                {/* <a href="https://linkedin.com/in/vionakaleb" target="_blank" rel="noreferrer" style={{cursor: "pointer"}}>Or reach me on <b>LinkedIn</b>.</a> */}
               </p>
-              
+              <a href={linkedin?.url} target="_blank" className="button btn linkedin-btn" rel="noreferrer">
+                <i className={linkedin?.className}></i>{" "}LinkedIn
+              </a>
             </div>
           </div>
         </Fade>

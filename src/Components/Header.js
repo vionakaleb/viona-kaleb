@@ -6,11 +6,11 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const github = this.props.data.social?.find(soc => soc.name === "Github");
-    const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn");
-    const name = this.props.data.name;
-    const description = this.props.data.description;
+    const { name, description } = this.props.data;
+
     const profilepic = "images/profile-bg.JPG";
+    const github = this.props.data.social?.find(soc => soc.name === "Github");
+    // const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn");
 
     return (
       <header id="home">
@@ -45,7 +45,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Portfolio
+                Projects
               </a>
             </li>
 
@@ -76,9 +76,9 @@ class Header extends Component {
                 <a href={github?.url} target="_blank" className="button btn github-btn" rel="noreferrer">
                   <i className={github?.className}></i>Github
                 </a>
-                <a href={linkedin?.url} target="_blank" className="button btn linkedin-btn" rel="noreferrer">
+                {/* <a href={linkedin?.url} target="_blank" className="button btn linkedin-btn" rel="noreferrer">
                   <i className={linkedin?.className}></i>LinkedIn
-                </a>
+                </a> */}
               </ul>
             </Fade>
           </div>

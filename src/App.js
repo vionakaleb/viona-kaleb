@@ -29,7 +29,7 @@ class App extends Component {
       success: function(data) {
         this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err) {
+      error: (xhr, status, err) => {
         console.log(err);
         alert(err);
       }
