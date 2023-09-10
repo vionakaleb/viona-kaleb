@@ -17,25 +17,41 @@ class Resume extends Component {
     const skillmessage = this.props.data.skillmessages;
     const education = this.props.data.education.map(function (education) {
       return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
-          </p>
-          <p>{education.description}</p>
+        <div key={education.school} className="flex-row gap-2">
+          <img
+            className="icon-logo"
+            src="images/campus.png"
+            alt=""
+          />
+          <div className="flex-col">
+            <h3 className="text-left">{education.school}</h3>
+            <p className="info text-left">
+              {education.degree} <span>&bull;</span>
+              <em className="date">{education.graduated}</em>
+            </p>
+            <p className="text-left">{education.description}</p>
+          </div>
         </div>
       );
     });
 
     const work = this.props.data.work.map(function (work) {
       return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
+        <div key={work.company} className="mb-6">
+          <div className="flex-row gap-2">
+            <img
+              className="icon-logo"
+              src={"images/" + work.logo}
+              alt={work.title}
+            />
+            <div className="flex-col">
+              <h3 className="text-left">{work.company}</h3>
+              <p className="info text-left">
+                {work.title}
+                <span>&bull;</span> <em className="date">{work.years}</em>
+              </p>
+            </div>
+          </div>
           {work.description &&
             <p className="mb-1">
               {work.description}
@@ -44,11 +60,11 @@ class Resume extends Component {
           {work.descriptions && 
             <ul style={{listStyleType:"disc", marginLeft: "1.5rem"}} className="mb-2">
               {work.descriptions?.map(desc => 
-                <li>{desc}</li>
+                desc ? <li>{desc}</li> : <br />
               )}
             </ul>
           }
-          <div className="skill-container mb-4">
+          <div className="skill-container">
             {work?.skills?.map(skill =>
               <div class="skill-labels">
                 ✔ {skill}

@@ -12,8 +12,15 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+            <div className="portfolio-desc">{projects.title}</div>
+            <Zmage 
+              alt={projects.title} 
+              src={projectImage}
+              hotKey 
+              controller 
+              coverVisible 
+              hideOnScroll 
+            />
           </div>
         </div>
       );
@@ -27,10 +34,17 @@ class Portfolio extends Component {
               <div style={{textAlign: "center", paddingBottom: "4rem", marginBottom: "4rem", borderBottom: "1px dashed #95A3A3"}}>
                 <h1 style={{marginBottom: "4rem"}}><i class="fa fa-folder-open"/> Personal Projects</h1>
                 {this.props.data.project_web.map((work, id) =>
-                  <div key={id} style={{marginBottom: "2rem"}}>
+                  <div key={id} className="mb-6">
                     <h5>{work.name}</h5>
-                    <p className="mb-1"><a href={work.url} target="_blank" rel="noreferrer">{work.url}</a></p>
-                    <div className="skill-container mb-4">
+                    <p className="m-0">
+                      <i class="fa fa-github"/>{" "}<a href={work.github} target="_blank" rel="noreferrer">{work.github}</a>
+                    </p>
+                    <p className="mb-1">
+                      {work.url ? <>
+                        <i class="fa fa-eye"/> <a href={work.url} target="_blank" rel="noreferrer">{work.url}</a>
+                      </> : null}
+                    </p>
+                    <div className="skill-container">
                       {work?.technology?.map(skill =>
                         <div class="skill-labels">
                           ✔ {skill}

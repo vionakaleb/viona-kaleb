@@ -1,9 +1,10 @@
 {
   "main": {
-    "name":"Viona Z. A. Kaleb",
+    "name":"Viona Kaleb",
     "fullname":"Viona Zatil Aqmar Kaleb",
     "description":"A passionate Front-End Developer",
     "image":"profilepic.jpg",
+    "bg": "profile-bg.JPG",
     "bios":[
       "Hello, I've been a Front-End Developer since 2018. I mainly use ReactJS, NextJS, and Typescript.",
       "Graduated as Bachelor of Science (B.Sc.IT), I'm currently a postgraduate student (MSIT)."
@@ -55,52 +56,54 @@
         "school":"President University",
         "degree":"MSIT",
         "graduated":"Now",
-        "description":"Studying Postgraduate Master of Science in IT."
+        "description":"Studying Postgraduate Master of Science in IT.",
+        "logo": "campus.png"
       },
       {
         "school":"President University",
         "degree":"B.Sc.IT",
         "graduated":"2018",
-        "description":"Graduated Bachelor of Computer Science in IT."
+        "description":"Graduated Bachelor of Computer Science in IT.",
+        "logo": "campus.png"
       }
     ],
     "work":[
       {
         "company":"Aplikasi Super",
         "title":"Front-End Developer",
-        "years":"June 2021 - Now",
+        "years":"July 2021 - Now",
         "description":"",
         "descriptions":[
           "Develop back-office for logistic, supply chain, and e-commerce web." , 
           "Create features & integrate API. Translate designs from Figma.",
           "Create unit test with Jest & React Testing Library."
         ],
-        "skills":["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"]
+        "skills":["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"],
+        "logo": "company-super.jpg"
       },
       {
-        "company":"Yummy Corp",
-        "title":"Front-End Developer",
-        "years":"June 2022 - March 2023",
+        "company":"Employed",
+        "title":"Software Engineer",
+        "years":"July 2022 - March 2023",
         "description":"",
         "descriptions":[
-          "Develop Order Management System.",
-          "Develop Asset Management.",
-          "Develop food catalog website.",
-          "Create features & integrate API. Translate designs from Figma."
-
+          "[Front End Developer]",
+          "DMS: Develop Order Management System.",
+          "DMS: Develop Asset Management.",
+          "DMS: Develop food catalog website.",
+          "YUM: Create features & integrate API. Translate designs from Figma/mock-up.",
+          "YUM: Develop a Distribution Management System.",
+          "NBT: Maintaining Dashboard Page that handles Master Data, claiming, and letter preview.",
+          "FYX: Creating a Dashboard for trading programs, slicing designs & develop features.",
+          "",
+          "[Associate .NET Developer]",
+          "FYX: Helping to develop logic, DynamoDB queries & Lambda functions.",
+          "",
+          "[Associate Data Analyst]",
+          "FYX: Transforming data & building visualizations using Microsoft Power BI."
         ],
-        "skills": ["TypeScript" , "NextJS" , "React Query" , "React Hooks" , "GraphQL"]
-      },
-      {
-        "company":"Indolima Perkasa",
-        "title":"Front-End Developer",
-        "years":"June 2021 - June 2022",
-        "description":"",
-        "descriptions":[
-          "Develop a Distribution Management System." , 
-          "Create features & integrate API. Translate designs from wireframe."
-        ],
-        "skills": ["ReactJS" , "Redux" , "Hooks"]
+        "skills": ["React", "TypeScript" , "NextJS" , ".NET", "Power BI"],
+        "logo": "company-work.png"
       },
       {
         "company":"Tristan Artha Media",
@@ -112,7 +115,8 @@
           "Develop an admin back-office.",
           "Create features & integrate API. Translate designs."
         ],
-        "skills": ["NextJS" , "ReactJS" , "Angular" , "Apollo GraphQL"]
+        "skills": ["NextJS" , "ReactJS" , "Angular" , "Apollo GraphQL"],
+        "logo": "company-tristan.jpg"
       },
       {
         "company":"Adactive Asia",
@@ -124,7 +128,8 @@
           "Create features & integrate CMS. Translate designs.",
           "Develop apps for LG Smart TVs."
         ],
-        "skills":["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"]
+        "skills":["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"],
+        "logo": "company-adactive.jpeg"
       },
       {
         "company":"Yamisok Platform",
@@ -136,7 +141,8 @@
           "Develop single-page apps for project microsites.",
           "Integrate API. Translate designs."
         ],
-        "skills":["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"]
+        "skills":["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"],
+        "logo": "company-yamisok.jpeg"
       },
       {
         "company":"Jababeka",
@@ -148,7 +154,8 @@
           "Solve ticketing requests from employees.",
           "Maintain some company softwares."
         ],
-        "skills":["IT" , "Hardware" , "Networking"]
+        "skills":["IT" , "Hardware" , "Networking"],
+        "logo": "company-jababeka.png"
       },
       {
         "company":"BMICG",
@@ -156,7 +163,8 @@
         "years":"May 2018 - May 2020",
         "description":"Maintain and revamp project websites.",
         "descriptions":[],
-        "skills":["PHP" , "CodeIgniter" , "jQuery"]
+        "skills":["PHP" , "CodeIgniter" , "jQuery"],
+        "logo": "company-bmicg.png"
       }
     ],
     "skills":[
@@ -208,12 +216,32 @@
       {
         "name": "Company Management",
         "url": "https://vionakaleb.github.io/company-management",
+        "github": "https://github.com/vionakaleb/company-management",
         "technology": ["ReactJS", "Typescript", "Redux", "Tailwind"]
       },
       {
         "name": "Chat App",
         "url": "https://vionakaleb.github.io/chat-app",
+        "github": "https://github.com/vionakaleb/chat-app",
         "technology": ["ReactJS", "Socket.IO", "Tailwind"]
+      },
+      {
+        "name": "Company Management API",
+        "url": "",
+        "github": "https://github.com/vionakaleb/company-management-api",
+        "technology": ["Express", "Node.js"]
+      },
+      {
+        "name": "Chat App API",
+        "url": "",
+        "github": "https://github.com/vionakaleb/chat-app-be-express",
+        "technology": ["Express", "Node.js"]
+      },
+      {
+        "name": "Todo List API",
+        "url": "",
+        "github": "https://github.com/vionakaleb/TodoListAPI",
+        "technology": [".NET", "C#"]
       }
     ],
     "projects": [

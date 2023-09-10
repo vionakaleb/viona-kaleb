@@ -10,6 +10,7 @@ class Header extends Component {
     const linkedin = this.props.data.social?.find(soc => soc.name === "LinkedIn");
     const name = this.props.data.name;
     const description = this.props.data.description;
+    const profilepic = "images/profile-bg.JPG";
 
     return (
       <header id="home">
@@ -44,7 +45,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Portfolio
               </a>
             </li>
 
@@ -58,8 +59,13 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
+            <img
+              className="bg-picture"
+              src={profilepic}
+              alt="Viona Kaleb Profile Pic"
+            />
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline mt-10rem">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
               <h3>- {description} -</h3>
