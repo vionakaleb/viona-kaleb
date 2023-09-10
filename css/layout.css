@@ -113,6 +113,29 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #0762f9; }
+/* .bg-picture {
+   background: url(../images/profile-bg.JPG);
+   width: 100% !important;
+   height: 200px;
+   background-size: cover;
+} */
+.banner .bg-picture {
+   margin-bottom: 2rem;
+   position: relative;
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   position: absolute;
+   left: 0;
+   top: 0;
+   filter: brightness(0.8);
+}
+.icon-logo {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   object-fit: contain;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -235,10 +258,13 @@ ul#nav li.current a { color: #fe6928; }
 .mt-2 { margin-top: 20px !important;}
 .mt-3 { margin-top: 30px !important;}
 .mt-4 { margin-top: 40px !important;}
+.mt-10rem { margin-top: 10rem !important;}
 .mb-1 { margin-bottom: 10px !important;}
 .mb-2 { margin-bottom: 20px !important;}
 .mb-3 { margin-bottom: 30px !important;}
 .mb-4 { margin-bottom: 40px !important;}
+.mb-5 { margin-bottom: 50px !important;}
+.mb-6 { margin-bottom: 60px !important;}
 
 #resume {
    background: #fff;
@@ -274,8 +300,7 @@ ul#nav li.current a { color: #fe6928; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
-   margin-top: 9px;
+   margin-bottom: 1rem;
 }
 #resume .info span {
    margin-right: 5px;
@@ -479,6 +504,7 @@ ul#nav li.current a { color: #fe6928; }
    background: #fff;
    overflow: hidden;
    position: relative;
+   height: 120px;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -490,6 +516,10 @@ ul#nav li.current a { color: #fe6928; }
    display: block;
    cursor: pointer;
 }
+#portfolio-wrapper .portfolio-desc { 
+   height: 30px;
+   text-align: center;
+ }
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -1085,4 +1115,36 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .linkedin-btn:hover{
    background-color: #052d56 !important;
+}
+.flex-row {
+   display: flex;
+   flex-direction: row;
+}
+.flex-col {
+   display: flex;
+   flex-direction: column;
+}
+.gap-2 {
+   gap: 2rem;
+}
+.text-left {
+   text-align: left;
+}
+.wrapperLayer__25Osd {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+   text-align: center;
+   background: #000000;
+   cursor: pointer;
+}
+.controls__3BU3E {
+   display: flex;
+   justify-content: space-around;
+}
+.imageLayer__207N- {
+   transform: none !important;
+   height: calc(100vh - 33px);
 }

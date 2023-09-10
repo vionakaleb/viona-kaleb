@@ -52,7 +52,7 @@
    #about .profile-pic {
       width: 114px;
       height: 114px;
-      margin-left: 12px;
+      margin-left: 0;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -212,10 +212,17 @@
     /* scrolldown link */
    header .scrolldown { display: none; }
 
+   .banner .bg-picture {
+      height: 150px;
+   }
+
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic {
+      margin-left: 0;
+      margin-bottom: 2rem;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -256,6 +263,9 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
+   .portfolio-item .item-wrap {
+      height: auto;
+   }
 
 
    /* Testimonials Section
@@ -335,7 +345,10 @@
       line-height: 54px;
    }
 
-
+   .imageLayer__207N- {
+      width: 100%;
+      height: auto;
+   }
 }
 
 /* mobile narrow
