@@ -86,10 +86,15 @@
         "years":"July 2021 - Now",
         "description":"",
         "descriptions":[
-          "Develop back-office for logistic, supply chain, and e-commerce web." , 
-          "Create features & integrate API. Translate designs from Figma.",
+          "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
+          "Create client-side features, integrate API from BE. Translate designs from UI/UX.",
           "Create unit test with Jest & React Testing Library."
         ],
+        "projects": [
+          "Internal dashboard",
+          "Agent webview"
+        ],
+        "website": "https://superapp.id/",
         "skills":["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"],
         "logo": "company-super.jpg"
       },
@@ -98,7 +103,8 @@
         "title":"Software Engineer",
         "years":"July 2022 - March 2023",
         "description":"",
-        "descriptions":[
+        "descriptions": [],
+        "projects": [
           "[Front End Developer]",
           "DMS: Develop Order Management System.",
           "DMS: Develop Asset Management.",
@@ -123,10 +129,10 @@
         "years":"Nov 2020 - June 2021",
         "description":"",
         "descriptions":[
-          "Maintain and develop a tournament platform in both web and mobile responsive.",
-          "Develop an admin back-office.",
-          "Create features & integrate API. Translate designs."
+          "Develop back-office & tournament platform in web and mobile responsive.",
+          "Create features, integrate API from BE. Translate designs from UI/UX."
         ],
+        "website": "http://www.tristancorp.com/",
         "skills": ["NextJS" , "ReactJS" , "Angular" , "Apollo GraphQL"],
         "logo": "company-tristan.jpg"
       },
@@ -137,9 +143,18 @@
         "description":"Worked fully remote on a Singapore-based company.",
         "descriptions":[
           "Create wayfinding apps for touchscreen display, installed in Singapore buildings.",
-          "Create features & integrate CMS. Translate designs.",
+          "Create features & integrate from CMS. Translate designs from UI/UX.",
           "Develop apps for LG Smart TVs."
         ],
+        "projects": [
+          "Singapore Discovery Centre",
+          "Singapore Supreme Courts",
+          "Singapore State Courts",
+          "Family Justice Courts",
+          "Woodsquare",
+          "Republic Plaza"
+        ],
+        "website": "https://www.adactive.asia/",
         "skills":["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"],
         "logo": "company-adactive.jpeg"
       },
@@ -151,8 +166,15 @@
         "descriptions":[
           "Maintain and revamp web platform for esports tournaments.",
           "Develop single-page apps for project microsites.",
-          "Integrate API. Translate designs."
+          "Integrate API from BE. Translate designs from UI/UX."
         ],
+        "projects": [
+          "Yamisok Platform",
+          "IESPL by Tokopedia",
+          "IHSL by JD.ID",
+          "Firstwarrior by Firstmedia"
+        ],
+        "website": "https://yamisok.com",
         "skills":["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"],
         "logo": "company-yamisok.jpeg"
       },
@@ -166,6 +188,7 @@
           "Solve ticketing requests from employees.",
           "Maintain some company softwares."
         ],
+        "website": "https://www.jababeka.com/id/home/",
         "skills":["IT" , "Hardware" , "Networking"],
         "logo": "company-jababeka.png"
       },
@@ -175,6 +198,7 @@
         "years":"May 2018 - May 2020",
         "description":"Maintain and revamp project websites.",
         "descriptions":[],
+        "website": "https://www.bmicg.com/",
         "skills":["PHP" , "CodeIgniter" , "jQuery"],
         "logo": "company-bmicg.png"
       }

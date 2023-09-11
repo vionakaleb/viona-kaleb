@@ -65,6 +65,21 @@ class Resume extends Component {
               )}
             </ul>
           }
+          {work.projects && 
+            <>
+              <p className="mb-1">Projects:</p>
+              <ul style={{listStyleType:"circle", marginLeft: "1.5rem"}} className="mb-2">
+                {work.projects?.map(desc => 
+                  desc ? <li>{desc}</li> : <br />
+                )}
+              </ul>
+            </>
+          }
+          {work.website &&
+            <div className="mb-2">
+              <i class="fa fa-link"/>{" "}<a href={work.website} target="_blank" rel="noreferrer">{work.website}</a>
+            </div>
+          }
           <div className="skill-container">
             {work?.skills?.map(skill =>
               <div class="skill-labels">
