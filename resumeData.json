@@ -1,21 +1,21 @@
 {
   "main": {
-    "name":"Viona Kaleb",
-    "fullname":"Viona Zatil Aqmar Kaleb",
-    "description":"A passionate Front-End Developer",
-    "image":"profilepic.jpg",
+    "name": "Viona Kaleb",
+    "fullname": "Viona Zatil Aqmar Kaleb",
+    "description": "A passionate Front-End Developer",
+    "image": "profilepic.jpg",
     "bg": "profile-bg.JPG",
-    "bios":[
+    "bios": [
       "Hello, I've been a Front-End Developer since 2018. I mainly use React.js and Typescript.",
       "Graduated as Bachelor of Science (B.Sc.IT), I'm currently a postgraduate student (MSIT)."
     ],
-    "bios2":[
-      "My daily tasks are to:", 
+    "bios2": [
+      "My daily tasks are to: ", 
       "- Translate designs from Figma, develop them into web apps.",
       "- Create logically functioning features, integrate API data.", 
       "- Also creating unit tests."
     ],
-    "bios3":[
+    "bios3": [
       "Skills in Software Development: ",
       "- FE: React.js, Typescript, Next.js, Vue.js, Angular.js. ",
       "- BE: Few experience in .NET, Express.js, PHP & GraphQL.",
@@ -27,65 +27,65 @@
       "- Jest, React Testing Library.",
       "- Git, Postman, Jira, Trello."
     ],
-    "contactmessage":"vionakaleb@gmail.com",
+    "contactmessage": "vionakaleb@gmail.com",
     "email": "vionakaleb@gmail.com",
     "phone": "",
-    "address":{
-      "street":"",
-      "city":"Tangerang Regency",
-      "state":"Banten",
+    "address": {
+      "street": "",
+      "city": "Tangerang Regency",
+      "state": "Banten",
       "zip": "15336",
       "country": "Indonesia",
       "gmaps": "https://www.google.com/maps/place/Kabupaten+Tangerang,+Banten/@-6.1818662,106.3924998,11z/data=!3m1!4b1!4m6!3m5!1s0x2e69ffb6b0ad7ae3:0x301576d14feb9b0!8m2!3d-6.1870007!4d106.487658!16zL20vMGdicjht"
     },
-    "social":[
+    "social": [
       {
-        "name":"Github",
-        "url":"https://github.com/vionakaleb",
-        "className":"fa fa-github"
+        "name": "Github",
+        "url": "https://github.com/vionakaleb",
+        "className": "fa fa-github"
       },
       {
-        "name":"LinkedIn",
-        "url":"https://linkedin.com/in/vionakaleb",
-        "className":"fa fa-linkedin"
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/vionakaleb",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"Behance",
-        "url":"https://behance.net/gallery/71544345/Vio-Web-Portfolio",
-        "className":"fa fa-behance"
+        "name": "Behance",
+        "url": "https://behance.net/gallery/71544345/Vio-Web-Portfolio",
+        "className": "fa fa-behance"
       },
       {
-        "name":"Email",
-        "url":"vionakaleb@gmail.com",
-        "className":"fa fa-envelope"
+        "name": "Email",
+        "url": "vionakaleb@gmail.com",
+        "className": "fa fa-envelope"
       }
     ]
   },
-  "resume":{
-    "skillmessages":[],
-    "education":[
+  "resume": {
+    "skillmessages": [],
+    "education": [
       {
-        "school":"President University",
-        "degree":"MSIT",
-        "graduated":"Now",
-        "description":"Studying Postgraduate Master of Science in IT.",
+        "school": "President University",
+        "degree": "MSIT",
+        "graduated": "Now",
+        "description": "Studying Postgraduate Master of Science in IT.",
         "logo": "campus.png"
       },
       {
-        "school":"President University",
-        "degree":"B.Sc.IT",
-        "graduated":"2018",
-        "description":"Graduated Bachelor of Computer Science in IT.",
+        "school": "President University",
+        "degree": "B.Sc.IT",
+        "graduated": "2018",
+        "description": "Graduated Bachelor of Computer Science in IT.",
         "logo": "campus.png"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Aplikasi Super",
-        "title":"Front-End Developer",
-        "years":"July 2021 - Now",
-        "description":"",
-        "descriptions":[
+        "company": "Aplikasi Super",
+        "title": "Front-End Web Developer",
+        "years": "July 2021 - Now",
+        "description": "",
+        "descriptions": [
           "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
           "Create client-side features, integrate API from BE. Translate designs from UI/UX.",
           "Create unit test with Jest & React Testing Library."
@@ -95,14 +95,14 @@
           "Agent webview"
         ],
         "website": "https://superapp.id/",
-        "skills":["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"],
+        "skills": ["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"],
         "logo": "company-super.jpg"
       },
       {
-        "company":"Employed",
-        "title":"Software Engineer",
-        "years":"July 2022 - March 2023",
-        "description":"",
+        "company": "Employed",
+        "title": "Software Engineer",
+        "years": "July 2022 - March 2023",
+        "description": "",
         "descriptions": [],
         "projects": [
           "[Front End Developer]",
@@ -124,11 +124,11 @@
         "logo": "company-work.png"
       },
       {
-        "company":"Tristan Artha Media",
-        "title":"Front-End Developer",
-        "years":"Nov 2020 - June 2021",
-        "description":"",
-        "descriptions":[
+        "company": "Tristan Artha Media",
+        "title": "Front-End Web Developer",
+        "years": "Nov 2020 - June 2021",
+        "description": "",
+        "descriptions": [
           "Develop back-office & tournament platform in web and mobile responsive.",
           "Create features, integrate API from BE. Translate designs from UI/UX."
         ],
@@ -137,11 +137,11 @@
         "logo": "company-tristan.jpg"
       },
       {
-        "company":"Adactive Asia",
-        "title":"Front-End Developer",
-        "years":"Mar 2020 - Dec 2020",
-        "description":"Worked fully remote on a Singapore-based company.",
-        "descriptions":[
+        "company": "Adactive Asia",
+        "title": "Front-End Developer",
+        "years": "Mar 2020 - Dec 2020",
+        "description": "Worked fully remote on a Singapore-based company.",
+        "descriptions": [
           "Create wayfinding apps for touchscreen display, installed in Singapore buildings.",
           "Create features & integrate from CMS. Translate designs from UI/UX.",
           "Develop apps for LG Smart TVs."
@@ -155,15 +155,15 @@
           "Republic Plaza"
         ],
         "website": "https://www.adactive.asia/",
-        "skills":["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"],
+        "skills": ["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"],
         "logo": "company-adactive.jpeg"
       },
       {
-        "company":"Yamisok Platform",
-        "title":"Front-End Developer",
-        "years":"May 2018 - May 2020",
-        "description":"",
-        "descriptions":[
+        "company": "Yamisok Platform",
+        "title": "Front-End Web Developer",
+        "years": "May 2018 - May 2020",
+        "description": "",
+        "descriptions": [
           "Maintain and revamp web platform for esports tournaments.",
           "Develop single-page apps for project microsites.",
           "Integrate API from BE. Translate designs from UI/UX."
@@ -175,81 +175,81 @@
           "Firstwarrior by Firstmedia"
         ],
         "website": "https://yamisok.com",
-        "skills":["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"],
+        "skills": ["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"],
         "logo": "company-yamisok.jpeg"
       },
       {
-        "company":"Jababeka",
-        "title":"IT Intern",
-        "years":"Jan 2018 - Apr 2020",
-        "description":"",
-        "descriptions":[
+        "company": "Jababeka",
+        "title": "IT Technician Intern",
+        "years": "Jan 2018 - Apr 2020",
+        "description": "",
+        "descriptions": [
           "Troubleshooting computers.",
           "Solve ticketing requests from employees.",
           "Maintain some company softwares."
         ],
         "website": "https://www.jababeka.com/",
-        "skills":["IT" , "Hardware" , "Networking"],
+        "skills": ["IT" , "Hardware" , "Networking"],
         "logo": "company-jababeka.png"
       },
       {
-        "company":"BMICG",
-        "title":"Front-End Developer",
-        "years":"May 2018 - May 2020",
-        "description":"",
-        "descriptions":[
+        "company": "BMICG",
+        "title": "Web Developer",
+        "years": "May 2018 - May 2020",
+        "description": "",
+        "descriptions": [
           "Maintain and revamp project websites."
         ],
-        "website": "",
-        "skills":["PHP" , "CodeIgniter" , "jQuery"],
+        "website": "https://www.linkedin.com/company/brand-marketing-institute-consulting-group-bmicg-/about/",
+        "skills": ["SQL", "PHP" , "CodeIgniter" , "jQuery"],
         "logo": "company-bmicg.png"
       }
     ],
     "skills":[
       {
-        "name":"Typescript",
-        "level":"80%"
+        "name": "Typescript",
+        "level": "80%"
       },
       {
-        "name":"ReactJS",
-        "level":"90%"
+        "name": "ReactJS",
+        "level": "80%"
       },
       {
-        "name":"NextJS",
-        "level":"80%"
+        "name": "NextJS",
+        "level": "70%"
       },
       {
-        "name":"VueJS",
-        "level":"70%"
+        "name": "VueJS",
+        "level": "70%"
       },
       {
-        "name":"Redux/Hooks",
-        "level":"80%"
+        "name": "Redux/Hooks",
+        "level": "80%"
       },
       {
-        "name":"RTK/React Query",
-        "level":"70%"
+        "name": "RTK/React Query",
+        "level": "70%"
       },
       {
-        "name":"GraphQL",
-        "level":"70%"
+        "name": "GraphQL",
+        "level": "70%"
       },
       {
-        "name":"Firebase",
-        "level":"70%"
+        "name": "Firebase",
+        "level": "70%"
       },
       {
-        "name":"Tailwind/SCSS",
-        "level":"90%"
+        "name": "Tailwind/SCSS",
+        "level": "90%"
       },
       {
-        "name":"Git",
-        "level":"90%"
+        "name": "Git",
+        "level": "90%"
       }
     ]
   },
-  "portfolio":{
-    "project":"https://behance.net/gallery/71544345/Vio-Web-Portfolio",
+  "portfolio": {
+    "project": "https://behance.net/gallery/71544345/Vio-Web-Portfolio",
     "project_web": [
       {
         "name": "Company Management",
@@ -284,82 +284,82 @@
     ],
     "projects": [
       {
-        "title":"Yummy - Food Catalog",
-        "category":"Food Catalog",
-        "image":"FoodCatalog.png",
-        "url":""
+        "title": "Yummy - Food Catalog",
+        "category": "Food Catalog",
+        "image": "FoodCatalog.png",
+        "url": ""
       },
       {
-        "title":"Yummy - Order Management",
-        "category":"Order Management",
-        "image":"OrderManagement.png",
-        "url":""
+        "title": "Yummy - Order Management",
+        "category": "Order Management",
+        "image": "OrderManagement.png",
+        "url": ""
       },
       {
-        "title":"IHSL Website",
-        "category":"IHSL",
-        "image":"IHSL.jpg",
-        "url":""
+        "title": "IHSL Website",
+        "category": "IHSL",
+        "image": "IHSL.jpg",
+        "url": ""
       },
       {
-        "title":"Firstwarrior - Schedule",
-        "category":"Firstwarrior - Community",
-        "image":"Firstwarrior.jpg",
-        "url":""
+        "title": "Firstwarrior - Schedule",
+        "category": "Firstwarrior - Community",
+        "image": "Firstwarrior.jpg",
+        "url": ""
       },
       {
-        "title":"Firstwarrior - Blog",
-        "category":"Firstwarrior - Community",
-        "image":"Firstwarrior2.jpg",
-        "url":""
+        "title": "Firstwarrior - Blog",
+        "category": "Firstwarrior - Community",
+        "image": "Firstwarrior2.jpg",
+        "url": ""
       },
       {
-        "title":"IESPL Website",
-        "category":"IESPL",
-        "image":"IESPL.jpg",
-        "url":""
+        "title": "IESPL Website",
+        "category": "IESPL",
+        "image": "IESPL.jpg",
+        "url": ""
       },
       {
-        "title":"Yamisok - Community",
-        "category":"Yamisok - Community",
-        "image":"Yamisok.jpg",
-        "url":""
+        "title": "Yamisok - Community",
+        "category": "Yamisok - Community",
+        "image": "Yamisok.jpg",
+        "url": ""
       },
       {
-        "title":"Yamisok - Profile",
-        "category":"Yamisok - Profile",
-        "image":"YamisokProfile.jpg",
-        "url":""
+        "title": "Yamisok - Profile",
+        "category": "Yamisok - Profile",
+        "image": "YamisokProfile.jpg",
+        "url": ""
       },
       {
-        "title":"Yamisok - Dashboard",
-        "category":"Yamisok - Dashboard",
-        "image":"Yamisok2.jpg",
-        "url":""
+        "title": "Yamisok - Dashboard",
+        "category": "Yamisok - Dashboard",
+        "image": "Yamisok2.jpg",
+        "url": ""
       },
       {
-        "title":"Supreme Courts - Wayfinding App",
-        "category":"Wayfinding app for Supreme Courts Singapore",
-        "image":"SupremeCourts.jpg",
-        "url":""
+        "title": "Supreme Courts - Wayfinding App",
+        "category": "Wayfinding app for Supreme Courts Singapore",
+        "image": "SupremeCourts.jpg",
+        "url": ""
       },
       {
-        "title":"Singapore Discovery Centre - Wayfinding App",
-        "category":"Wayfinding app for Singapore Discovery Centre",
-        "image":"SDC.jpg",
-        "url":""
+        "title": "Singapore Discovery Centre - Wayfinding App",
+        "category": "Wayfinding app for Singapore Discovery Centre",
+        "image": "SDC.jpg",
+        "url": ""
       },
       {
-        "title":"Woodsquare - Wayfinding App",
-        "category":"Wayfinding app for Woodsquare Singapore",
-        "image":"Woodsquare.jpg",
-        "url":""
+        "title": "Woodsquare - Wayfinding App",
+        "category": "Wayfinding app for Woodsquare Singapore",
+        "image": "Woodsquare.jpg",
+        "url": ""
       },
       {
-        "title":"Ecommerce Mobile Webview",
-        "category":"Ecommerce app for Superagen",
-        "image":"Superagen.png",
-        "url":""
+        "title": "Ecommerce Mobile Webview",
+        "category": "Ecommerce app for Superagen",
+        "image": "Superagen.png",
+        "url": ""
       }
     ]
   }
