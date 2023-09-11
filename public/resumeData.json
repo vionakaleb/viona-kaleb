@@ -188,7 +188,7 @@
           "Solve ticketing requests from employees.",
           "Maintain some company softwares."
         ],
-        "website": "https://www.jababeka.com/id/home/",
+        "website": "https://www.jababeka.com/",
         "skills":["IT" , "Hardware" , "Networking"],
         "logo": "company-jababeka.png"
       },
@@ -196,9 +196,11 @@
         "company":"BMICG",
         "title":"Front-End Developer",
         "years":"May 2018 - May 2020",
-        "description":"Maintain and revamp project websites.",
-        "descriptions":[],
-        "website": "https://www.bmicg.com/",
+        "description":"",
+        "descriptions":[
+          "Maintain and revamp project websites."
+        ],
+        "website": "",
         "skills":["PHP" , "CodeIgniter" , "jQuery"],
         "logo": "company-bmicg.png"
       }
