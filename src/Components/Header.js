@@ -59,11 +59,13 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <img
-              className="bg-picture"
-              src={profilepic}
-              alt="Viona Kaleb Profile Pic"
-            />
+            <Fade top>
+              <img
+                className="bg-picture"
+                src={profilepic}
+                alt="Viona Kaleb Profile Pic"
+              />
+            </Fade>
             <Fade bottom>
               <h1 className="responsive-headline mt-10rem">{name}</h1>
             </Fade>
