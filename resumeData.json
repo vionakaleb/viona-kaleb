@@ -6,10 +6,10 @@
     "image": "profilepic.jpg",
     "bg": "profile-bg.JPG",
     "bios": [
-      "Hello, I've been a Front-End Developer since 2018 (5+ years of experience). I mainly use React.js and Typescript.",
-      "Graduated as Bachelor of Science (B.Sc.IT), I'm currently a postgraduate student (MSIT).",
+      "Hello, I've been a Front-End Developer since 2018 (5+ years of experience).",
+      "I'm currently a postgraduate student (MSIT).",
       "I can do Frontend web projects. You may find my portfolio below.",
-      "Just message me for rate. :)"
+      "Just message me for rate."
     ],
     "bios2": [
       "My daily tasks are to: ", 
