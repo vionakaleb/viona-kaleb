@@ -25,7 +25,10 @@
       "- Tailwind, SCSS/SASS, LESS. ",
       "- Material UI, Ant Design, Bootstrap, Nuxt, Foundation. ",
       "- Jest, React Testing Library.",
-      "- Git, Postman, Jira, Trello."
+      "- Git, Postman, Jira, Trello.",
+      "",
+      "I can also create landing pages, or do Front End Web projects.",
+      "Message me for rate."
     ],
     "contactmessage": "vionakaleb@gmail.com",
     "email": "vionakaleb@gmail.com",
@@ -116,8 +119,8 @@
         "logo": "company-super.jpg"
       },
       {
-        "company": "Freelance",
-        "title": "Software Engineer",
+        "company": "Projects",
+        "title": "Front End Developer",
         "years": "April 2023",
         "description": "",
         "descriptions": [],
@@ -271,6 +274,10 @@
         "level": "70%"
       },
       {
+        "name": "AngularJS",
+        "level": "70%"
+      },
+      {
         "name": "VueJS",
         "level": "70%"
       },
@@ -294,10 +301,6 @@
         "name": "Tailwind/SCSS",
         "level": "90%"
       },
-      {
-        "name": "Git",
-        "level": "90%"
-      }
     ]
   },
   "portfolio": {
