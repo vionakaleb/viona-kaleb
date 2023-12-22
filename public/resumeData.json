@@ -80,10 +80,27 @@
       }
     ],
     "work": [
+   {
+        "company": "Bank Mandiri",
+        "title": "Angular Developer",
+        "years": "November 2023 - Now",
+        "description": "",
+        "descriptions": [
+          "Develop and maintain feature for Smart Branch (Digital Bank Delivery)",
+          "Create client-side features, integrate API from BE. Translate designs from UI/UX."
+        ],
+        "projects": [
+          "E-Form",
+          "Smart Admin"
+        ],
+        "website": "https://bankmandiri.co.id/",
+        "skills": ["AngularJS" , "Typescript"],
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpWkBGzZmnEdtPg78MbgqtEV7h0AkLkxeYLC58o3PBP6TuuqEBEPNJwXd&s=10"
+      }, 
       {
         "company": "Aplikasi Super",
         "title": "Front-End Web Developer",
-        "years": "July 2021 - Now",
+        "years": "July 2021 - November 2023",
         "description": "",
         "descriptions": [
           "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
