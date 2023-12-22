@@ -95,7 +95,7 @@
         ],
         "website": "https://bankmandiri.co.id/",
         "skills": ["AngularJS" , "Typescript"],
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpWkBGzZmnEdtPg78MbgqtEV7h0AkLkxeYLC58o3PBP6TuuqEBEPNJwXd&s=10"
+        "logo": "company-mandiri.jpeg"
       }, 
       {
         "company": "Aplikasi Super",
@@ -146,7 +146,7 @@
           "Transforming data & building visualizations using Microsoft Power BI."
         ],
         "skills": ["React", "TypeScript", ".NET", "PowerBI"],
-        "logo": "https://media.licdn.com/dms/image/D560BAQEGkDfp3NTsQA/company-logo_200_200/0/1684126297063/hypestacks_logo?e=2147483647&v=beta&t=Z3aemi6Ju_qpGoUSSqydJcPerN2dGwB3jYxTUmRaQwA"
+        "logo": "company-hypestacks.jpeg"
       },
       {
         "company": "Yummycorp",
@@ -160,7 +160,7 @@
           "Develop food catalog website."
         ],
         "skills": ["React", "TypeScript"],
-        "logo": "https://media.licdn.com/dms/image/C510BAQElxM8AGlzrVA/company-logo_200_200/0/1631426352162/yummycorp_logo?e=2147483647&v=beta&t=AYcrwe7by52vXkeqExX5u_0CcMHPhEJL1Um_D9qcHmk"
+        "logo": "company-yummycorp.jpeg"
       },
       {
         "company": "Indolima",
@@ -173,7 +173,7 @@
           "Develop a Distribution Management System."
         ],
         "skills": ["React", "TypeScript"],
-        "logo": "https://media.licdn.com/dms/image/C510BAQElxM8AGlzrVA/company-logo_200_200/0/1631426352162/yummycorp_logo?e=2147483647&v=beta&t=AYcrwe7by52vXkeqExX5u_0CcMHPhEJL1Um_D9qcHmk"
+        "logo": "company-indolima.jpeg"
       },
       {
         "company": "Tristan Artha Media",
