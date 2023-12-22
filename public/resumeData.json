@@ -116,29 +116,64 @@
         "logo": "company-super.jpg"
       },
       {
-        "company": "Employed",
+        "company": "Freelance",
         "title": "Software Engineer",
-        "years": "July 2018 - March 2023",
+        "years": "April 2023",
         "description": "",
         "descriptions": [],
         "projects": [
           "[Front End Developer]",
-          "DMS: Develop Order Management System.",
-          "DMS: Develop Asset Management.",
-          "DMS: Develop food catalog website.",
-          "YUM: Create features & integrate API. Translate designs from Figma/mock-up.",
-          "YUM: Develop a Distribution Management System.",
-          "NBT: Maintaining Dashboard Page that handles Master Data, claiming, and letter preview.",
-          "FYX: Creating a Dashboard for trading programs, slicing designs & develop features.",
+          "Nabati: Maintaining Dashboard Page that handles Master Data, claiming, and letter preview.",
+          "Telkomsel Verona: Develop and maintain Vendor Management."
+        ],
+        "skills": ["React", "TypeScript" , "VueJS"],
+        "logo": "company-work.png"
+      },
+      {
+        "company": "Hypestacks",
+        "title": "Front End Developer",
+        "years": "April 2023",
+        "description": "",
+        "descriptions": [],
+        "projects": [
+          "[Front End Developer]",
+          "Creating a Dashboard for trading programs, slicing designs & develop features.",
           "",
           "[Associate .NET Developer]",
-          "FYX: Helping to develop logic, DynamoDB queries & Lambda functions.",
+          "Helping to develop logic, DynamoDB queries & Lambda functions.",
           "",
           "[Associate Data Analyst]",
-          "FYX: Transforming data & building visualizations using Microsoft Power BI."
+          "Transforming data & building visualizations using Microsoft Power BI."
         ],
-        "skills": ["React", "TypeScript" , "NextJS" , ".NET", "Power BI"],
-        "logo": "company-work.png"
+        "skills": ["React", "TypeScript", ".NET", "PowerBI"],
+        "logo": "https://media.licdn.com/dms/image/D560BAQEGkDfp3NTsQA/company-logo_200_200/0/1684126297063/hypestacks_logo?e=2147483647&v=beta&t=Z3aemi6Ju_qpGoUSSqydJcPerN2dGwB3jYxTUmRaQwA"
+      },
+      {
+        "company": "Yummycorp",
+        "title": "Front End Developer",
+        "years": "June 2022 - April 2023",
+        "description": "",
+        "descriptions": [],
+        "projects": [
+          "Develop Order Management System.",
+          "Develop Asset Management.",
+          "Develop food catalog website."
+        ],
+        "skills": ["React", "TypeScript"],
+        "logo": "https://media.licdn.com/dms/image/C510BAQElxM8AGlzrVA/company-logo_200_200/0/1631426352162/yummycorp_logo?e=2147483647&v=beta&t=AYcrwe7by52vXkeqExX5u_0CcMHPhEJL1Um_D9qcHmk"
+      },
+      {
+        "company": "Indolima",
+        "title": "Front End Developer",
+        "years": "June 2021 - June 2022",
+        "description": "",
+        "descriptions": [],
+        "projects": [
+          "Create features & integrate API. Translate designs from Figma/mock-up.",
+          "Develop a Distribution Management System."
+        ],
+        "skills": ["React", "TypeScript"],
+        "logo": "https://media.licdn.com/dms/image/C510BAQElxM8AGlzrVA/company-logo_200_200/0/1631426352162/yummycorp_logo?e=2147483647&v=beta&t=AYcrwe7by52vXkeqExX5u_0CcMHPhEJL1Um_D9qcHmk"
       },
       {
         "company": "Tristan Artha Media",
