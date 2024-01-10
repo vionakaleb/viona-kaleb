@@ -6,8 +6,8 @@
     "image": "profilepic.jpg",
     "bg": "profile-bg.JPG",
     "bios": [
-      "Hello, I've been a Front-End Developer since 2018. I mainly use React.js and Typescript.",
-      "Graduated as Bachelor of Science (B.Sc.IT), I'm currently a postgraduate student (MSIT)."
+      "Hello, I've been a Front-End Developer since 2018 (5+ years of experience).",
+      "I can do Frontend web projects. You may find my portfolio below. Just message me for rate."
     ],
     "bios2": [
       "My daily tasks are to: ", 
@@ -75,15 +75,32 @@
         "school": "President University",
         "degree": "B.Sc.IT",
         "graduated": "2018",
-        "description": "Graduated Bachelor of Computer Science in IT.",
+        "description": "Graduated as Bachelor of Computer Science in IT.",
         "logo": "campus.png"
       }
     ],
-    "work": [
+    "work": [  
+    {
+      "company": "Hypestacks",
+      "title": "Front End Developer",
+      "description": "",
+      "descriptions": [],
+      "projects": [
+        "[Front End Developer]",
+        "Creating a Dashboard for trading programs, slicing designs & develop features.",
+        "",
+        "[Associate .NET Developer]",
+        "Helping to develop logic, DynamoDB queries & Lambda functions.",
+        "",
+        "[Associate Data Analyst]",
+        "Transforming data & building visualizations using Microsoft Power BI."
+      ],
+      "skills": ["React", "TypeScript", ".NET", "PowerBI"],
+      "logo": "company-hypestacks.jpeg"
+    },
    {
         "company": "Bank Mandiri",
         "title": "Angular Developer",
-        "years": "November 2023 - Now",
         "description": "",
         "descriptions": [
           "Develop and maintain feature for Smart Branch (Digital Bank Delivery)",
@@ -95,12 +112,11 @@
         ],
         "website": "https://bankmandiri.co.id/",
         "skills": ["AngularJS" , "Typescript"],
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpWkBGzZmnEdtPg78MbgqtEV7h0AkLkxeYLC58o3PBP6TuuqEBEPNJwXd&s=10"
+        "logo": "company-mandiri.jpeg"
       }, 
       {
         "company": "Aplikasi Super",
         "title": "Front-End Web Developer",
-        "years": "July 2021 - November 2023",
         "description": "",
         "descriptions": [
           "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
@@ -116,9 +132,8 @@
         "logo": "company-super.jpg"
       },
       {
-        "company": "Freelance",
-        "title": "Software Engineer",
-        "years": "April 2023",
+        "company": "Projects",
+        "title": "Front End Developer",
         "description": "",
         "descriptions": [],
         "projects": [
@@ -130,28 +145,8 @@
         "logo": "company-work.png"
       },
       {
-        "company": "Hypestacks",
-        "title": "Front End Developer",
-        "years": "April 2023",
-        "description": "",
-        "descriptions": [],
-        "projects": [
-          "[Front End Developer]",
-          "Creating a Dashboard for trading programs, slicing designs & develop features.",
-          "",
-          "[Associate .NET Developer]",
-          "Helping to develop logic, DynamoDB queries & Lambda functions.",
-          "",
-          "[Associate Data Analyst]",
-          "Transforming data & building visualizations using Microsoft Power BI."
-        ],
-        "skills": ["React", "TypeScript", ".NET", "PowerBI"],
-        "logo": "https://media.licdn.com/dms/image/D560BAQEGkDfp3NTsQA/company-logo_200_200/0/1684126297063/hypestacks_logo?e=2147483647&v=beta&t=Z3aemi6Ju_qpGoUSSqydJcPerN2dGwB3jYxTUmRaQwA"
-      },
-      {
         "company": "Yummycorp",
         "title": "Front End Developer",
-        "years": "June 2022 - April 2023",
         "description": "",
         "descriptions": [],
         "projects": [
@@ -160,12 +155,11 @@
           "Develop food catalog website."
         ],
         "skills": ["React", "TypeScript"],
-        "logo": "https://media.licdn.com/dms/image/C510BAQElxM8AGlzrVA/company-logo_200_200/0/1631426352162/yummycorp_logo?e=2147483647&v=beta&t=AYcrwe7by52vXkeqExX5u_0CcMHPhEJL1Um_D9qcHmk"
+        "logo": "company-yummycorp.jpeg"
       },
       {
         "company": "Indolima",
         "title": "Front End Developer",
-        "years": "June 2021 - June 2022",
         "description": "",
         "descriptions": [],
         "projects": [
@@ -173,12 +167,11 @@
           "Develop a Distribution Management System."
         ],
         "skills": ["React", "TypeScript"],
-        "logo": "https://media.licdn.com/dms/image/C510BAQElxM8AGlzrVA/company-logo_200_200/0/1631426352162/yummycorp_logo?e=2147483647&v=beta&t=AYcrwe7by52vXkeqExX5u_0CcMHPhEJL1Um_D9qcHmk"
+        "logo": "company-indolima.jpeg"
       },
       {
         "company": "Tristan Artha Media",
         "title": "Front-End Web Developer",
-        "years": "Nov 2020 - June 2021",
         "description": "",
         "descriptions": [
           "Develop back-office & tournament platform in web and mobile responsive.",
@@ -191,7 +184,6 @@
       {
         "company": "Adactive Asia",
         "title": "Front-End Developer",
-        "years": "Mar 2020 - Dec 2020",
         "description": "Worked fully remote on a Singapore-based company.",
         "descriptions": [
           "Create wayfinding apps for touchscreen display, installed in Singapore buildings.",
@@ -213,7 +205,6 @@
       {
         "company": "Yamisok Platform",
         "title": "Front-End Web Developer",
-        "years": "May 2018 - May 2020",
         "description": "",
         "descriptions": [
           "Maintain and revamp web platform for esports tournaments.",
@@ -233,7 +224,6 @@
       {
         "company": "Jababeka",
         "title": "IT Technician Intern",
-        "years": "Jan 2018 - Apr 2020",
         "description": "",
         "descriptions": [
           "Troubleshooting computers.",
@@ -247,7 +237,6 @@
       {
         "company": "BMICG",
         "title": "Web Developer",
-        "years": "May 2018 - May 2020",
         "description": "",
         "descriptions": [
           "Maintain and revamp project websites."
@@ -268,6 +257,10 @@
       },
       {
         "name": "NextJS",
+        "level": "70%"
+      },
+      {
+        "name": "AngularJS",
         "level": "70%"
       },
       {
@@ -292,10 +285,6 @@
       },
       {
         "name": "Tailwind/SCSS",
-        "level": "90%"
-      },
-      {
-        "name": "Git",
         "level": "90%"
       }
     ]
