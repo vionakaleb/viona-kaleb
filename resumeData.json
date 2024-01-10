@@ -79,11 +79,28 @@
         "logo": "campus.png"
       }
     ],
-    "work": [
+    "work": [  
+    {
+      "company": "Hypestacks",
+      "title": "Front End Developer",
+      "description": "",
+      "descriptions": [],
+      "projects": [
+        "[Front End Developer]",
+        "Creating a Dashboard for trading programs, slicing designs & develop features.",
+        "",
+        "[Associate .NET Developer]",
+        "Helping to develop logic, DynamoDB queries & Lambda functions.",
+        "",
+        "[Associate Data Analyst]",
+        "Transforming data & building visualizations using Microsoft Power BI."
+      ],
+      "skills": ["React", "TypeScript", ".NET", "PowerBI"],
+      "logo": "company-hypestacks.jpeg"
+    },
    {
         "company": "Bank Mandiri",
         "title": "Angular Developer",
-        "years": "November 2023 - Now",
         "description": "",
         "descriptions": [
           "Develop and maintain feature for Smart Branch (Digital Bank Delivery)",
@@ -100,7 +117,6 @@
       {
         "company": "Aplikasi Super",
         "title": "Front-End Web Developer",
-        "years": "July 2021 - November 2023",
         "description": "",
         "descriptions": [
           "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
@@ -118,7 +134,6 @@
       {
         "company": "Projects",
         "title": "Front End Developer",
-        "years": "April 2023",
         "description": "",
         "descriptions": [],
         "projects": [
@@ -130,28 +145,8 @@
         "logo": "company-work.png"
       },
       {
-        "company": "Hypestacks",
-        "title": "Front End Developer",
-        "years": "April 2023",
-        "description": "",
-        "descriptions": [],
-        "projects": [
-          "[Front End Developer]",
-          "Creating a Dashboard for trading programs, slicing designs & develop features.",
-          "",
-          "[Associate .NET Developer]",
-          "Helping to develop logic, DynamoDB queries & Lambda functions.",
-          "",
-          "[Associate Data Analyst]",
-          "Transforming data & building visualizations using Microsoft Power BI."
-        ],
-        "skills": ["React", "TypeScript", ".NET", "PowerBI"],
-        "logo": "company-hypestacks.jpeg"
-      },
-      {
         "company": "Yummycorp",
         "title": "Front End Developer",
-        "years": "June 2022 - April 2023",
         "description": "",
         "descriptions": [],
         "projects": [
@@ -165,7 +160,6 @@
       {
         "company": "Indolima",
         "title": "Front End Developer",
-        "years": "June 2021 - June 2022",
         "description": "",
         "descriptions": [],
         "projects": [
@@ -178,7 +172,6 @@
       {
         "company": "Tristan Artha Media",
         "title": "Front-End Web Developer",
-        "years": "Nov 2020 - June 2021",
         "description": "",
         "descriptions": [
           "Develop back-office & tournament platform in web and mobile responsive.",
@@ -191,7 +184,6 @@
       {
         "company": "Adactive Asia",
         "title": "Front-End Developer",
-        "years": "Mar 2020 - Dec 2020",
         "description": "Worked fully remote on a Singapore-based company.",
         "descriptions": [
           "Create wayfinding apps for touchscreen display, installed in Singapore buildings.",
@@ -213,7 +205,6 @@
       {
         "company": "Yamisok Platform",
         "title": "Front-End Web Developer",
-        "years": "May 2018 - May 2020",
         "description": "",
         "descriptions": [
           "Maintain and revamp web platform for esports tournaments.",
@@ -233,7 +224,6 @@
       {
         "company": "Jababeka",
         "title": "IT Technician Intern",
-        "years": "Jan 2018 - Apr 2020",
         "description": "",
         "descriptions": [
           "Troubleshooting computers.",
@@ -247,7 +237,6 @@
       {
         "company": "BMICG",
         "title": "Web Developer",
-        "years": "May 2018 - May 2020",
         "description": "",
         "descriptions": [
           "Maintain and revamp project websites."
