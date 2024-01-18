@@ -80,24 +80,6 @@
       }
     ],
     "work": [  
-    {
-      "company": "Hypestacks",
-      "title": "Front End Developer",
-      "description": "",
-      "descriptions": [],
-      "projects": [
-        "[Front End Developer]",
-        "Creating a Dashboard for trading programs, slicing designs & develop features.",
-        "",
-        "[Associate .NET Developer]",
-        "Helping to develop logic, DynamoDB queries & Lambda functions.",
-        "",
-        "[Associate Data Analyst]",
-        "Transforming data & building visualizations using Microsoft Power BI."
-      ],
-      "skills": ["React", "TypeScript", ".NET", "PowerBI"],
-      "logo": "company-hypestacks.jpeg"
-    },
       {
         "company": "Tristan Artha Media",
         "title": "Front-End Web Developer",
