@@ -81,6 +81,31 @@
     ],
     "work": [  
       {
+        "company": "HypeStacks",
+        "title": "Front-End Web Developer",
+        "years": "2023",
+        "description": "",
+        "descriptions": [
+          "Working for a multi-national company.",
+          "",
+          "As Front End Developer, using React.js & Typescript:",
+          "- Creating a Dashboard for trading app. Slicing designs & develop features.",
+          "",
+          "As Associate .NET Developer:",
+          "- Helping to develop logic, DynamoDB queries & Lambda functions.",
+          "",
+          "As Associate Data Analyst:",
+          "- Transforming, querying & building trading data visualizations using Microsoft Power BI.",
+        ],
+        "projects": [
+          "Trading Dashboard",
+          "Data Visualizations"
+        ],
+        "website": "https://hypestacks.com/",
+        "skills": ["ReactJS" , "Typescript" , "Redux" , "Power BI"],
+        "logo": "company-hypestacks.jpeg"
+      },
+      {
         "company": "Aplikasi Super",
         "title": "Front-End Web Developer",
         "years": "2021-2023",
