@@ -81,23 +81,29 @@
     ],
     "work": [  
     {
-      "company": "Hypestacks",
-      "title": "Front End Developer",
-      "description": "",
-      "descriptions": [],
-      "projects": [
-        "[Front End Developer]",
-        "Creating a Dashboard for trading programs, slicing designs & develop features.",
-        "",
-        "[Associate .NET Developer]",
-        "Helping to develop logic, DynamoDB queries & Lambda functions.",
-        "",
-        "[Associate Data Analyst]",
-        "Transforming data & building visualizations using Microsoft Power BI."
-      ],
-      "skills": ["React", "TypeScript", ".NET", "PowerBI"],
-      "logo": "company-hypestacks.jpeg"
-    },
+        "company": "HypeStacks",
+        "title": "Front-End Web Developer",
+        "description": "",
+        "descriptions": [
+          "Working for a multi-national company.",
+          "",
+          "As Front End Developer, using React.js & Typescript:",
+          "- Creating a Dashboard for trading app. Slicing designs & develop features.",
+          "",
+          "As Associate .NET Developer:",
+          "- Helping to develop logic, DynamoDB queries & Lambda functions.",
+          "",
+          "As Associate Data Analyst:",
+          "- Transforming, querying & building trading data visualizations using Microsoft Power BI.",
+        ],
+        "projects": [
+          "Trading Dashboard",
+          "Data Visualizations"
+        ],
+        "website": "https://hypestacks.com/",
+        "skills": ["ReactJS" , "Typescript" , "Redux" , "Power BI"],
+        "logo": "company-hypestacks.jpeg"
+      },
    {
         "company": "Bank Mandiri",
         "title": "Angular Developer",
