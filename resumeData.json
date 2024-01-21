@@ -81,6 +81,23 @@
     ],
     "work": [  
       {
+        "company": "Aplikasi Super",
+        "title": "Front-End Web Developer",
+        "description": "",
+        "descriptions": [
+          "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
+          "Create client-side features, integrate API from BE. Translate designs from UI/UX.",
+          "Create unit test with Jest & React Testing Library."
+        ],
+        "projects": [
+          "Internal dashboard",
+          "Agent webview"
+        ],
+        "website": "https://superapp.id/",
+        "skills": ["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"],
+        "logo": "company-super.jpg"
+      },
+      {
         "company": "Tristan Artha Media",
         "title": "Front-End Web Developer",
         "description": "",
