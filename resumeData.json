@@ -259,16 +259,16 @@
         "technology": ["ReactJS", "Typescript", "Redux", "Tailwind"]
       },
       {
-        "name": "Chat App",
-        "url": "https://vionakaleb.github.io/chat-app",
-        "github": "https://github.com/vionakaleb/chat-app",
-        "technology": ["ReactJS", "Socket.IO", "Tailwind"]
-      },
-      {
         "name": "Company Management API",
         "url": "",
         "github": "https://github.com/vionakaleb/company-management-api",
         "technology": ["Express", "Node.js"]
+      },
+      {
+        "name": "Chat App",
+        "url": "https://vionakaleb.github.io/chat-app",
+        "github": "https://github.com/vionakaleb/chat-app",
+        "technology": ["ReactJS", "Socket.IO", "Tailwind"]
       },
       {
         "name": "Chat App API",
