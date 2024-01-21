@@ -83,6 +83,7 @@
       {
         "company": "Aplikasi Super",
         "title": "Front-End Web Developer",
+        "years": "2021-2023",
         "description": "",
         "descriptions": [
           "Develop back-office for master data, orders, logistic, supply chain, and e-commerce web.",
@@ -100,6 +101,8 @@
       {
         "company": "Tristan Artha Media",
         "title": "Front-End Web Developer",
+        "years": "2020-2021",
+      
         "description": "",
         "descriptions": [
           "Develop back-office & tournament platform in web and mobile responsive.",
@@ -112,6 +115,7 @@
       {
         "company": "Adactive Asia",
         "title": "Front-End Developer",
+        "years": "2020",
         "description": "Worked fully remote on a Singapore-based company.",
         "descriptions": [
           "Create wayfinding apps for touchscreen display, installed in Singapore buildings.",
@@ -133,6 +137,7 @@
       {
         "company": "Yamisok Platform",
         "title": "Front-End Web Developer",
+        "years": "2018-2020",
         "description": "",
         "descriptions": [
           "Maintain and revamp web platform for esports tournaments.",
@@ -152,6 +157,7 @@
       {
         "company": "Jababeka",
         "title": "IT Technician Intern",
+        "years": "2018",
         "description": "",
         "descriptions": [
           "Troubleshooting computers.",
@@ -165,6 +171,7 @@
       {
         "company": "BMICG",
         "title": "Web Developer",
+        "years": "2017",
         "description": "",
         "descriptions": [
           "Maintain and revamp project websites."
