@@ -94,14 +94,14 @@
           "Helping to develop logic, DynamoDB queries & Lambda functions.",
           "",
           "As Associate Data Analyst:",
-          "Transforming, querying & building trading data visualizations using Microsoft Power BI."
+          "Transforming, DAX querying & building trading data visualizations using Microsoft Power BI."
         ],
         "projects": [
           "Trading Dashboard",
           "Data Visualizations"
         ],
         "website": "https://hypestacks.com/",
-        "skills": ["ReactJS" , "Typescript" , "Redux" , "Power BI"],
+        "skills": ["Next.js", "React.js" , "Typescript" , "Power BI DAX", ".NET" ],
         "logo": "company-hypestacks.jpeg"
       },
       {
@@ -119,7 +119,7 @@
           "Agent webview"
         ],
         "website": "https://superapp.id/",
-        "skills": ["ReactJS" , "Typescript" , "RTK Query" , "Redux" , "Hooks"],
+        "skills": ["React.js" , "Typescript" , "RTK Query" , "Redux" , "Hooks"],
         "logo": "company-super.jpg"
       },
       {
@@ -133,7 +133,7 @@
           "Create features, integrate API from BE. Translate designs from UI/UX."
         ],
         "website": "http://www.tristancorp.com/",
-        "skills": ["NextJS" , "ReactJS" , "Angular" , "Apollo GraphQL"],
+        "skills": ["Next.js" , "React.js" , "Angular.js" , "Apollo GraphQL"],
         "logo": "company-tristan.jpg"
       },
       {
@@ -155,7 +155,7 @@
           "Republic Plaza"
         ],
         "website": "https://www.adactive.asia/",
-        "skills": ["ReactJS" , "React Hooks" , "Firebase" , "LESS" , "Canvas" , "GSAP" , "webOS"],
+        "skills": ["React.js" , "Vanilla.js" , "Firebase" , "Canvas" , "GSAP" , "webOS"],
         "logo": "company-adactive.jpeg"
       },
       {
@@ -175,7 +175,7 @@
           "Firstwarrior by Firstmedia"
         ],
         "website": "https://yamisok.com",
-        "skills": ["VueJS" , "Vuex" , "NuxtJS" , "Bootstrap Vue"],
+        "skills": ["Vue.js" , "Vuex" , "Nuxt.js" , "Bootstrap Vue"],
         "logo": "company-yamisok.jpeg"
       },
       {
@@ -201,7 +201,7 @@
           "Maintain and revamp project websites."
         ],
         "website": "https://www.linkedin.com/company/brand-marketing-institute-consulting-group-bmicg-/about/",
-        "skills": ["SQL", "PHP" , "CodeIgniter" , "jQuery"],
+        "skills": ["PHP" , "CodeIgniter", "SQL", "jQuery"],
         "logo": "company-bmicg.png"
       }
     ],
@@ -211,19 +211,19 @@
         "level": "80%"
       },
       {
-        "name": "ReactJS",
+        "name": "Next.js",
+        "level": "70%"
+      },
+      {
+        "name": "React.js",
         "level": "80%"
       },
       {
-        "name": "NextJS",
+        "name": "Angular.js",
         "level": "70%"
       },
       {
-        "name": "AngularJS",
-        "level": "70%"
-      },
-      {
-        "name": "VueJS",
+        "name": "Vue.js",
         "level": "70%"
       },
       {
@@ -255,7 +255,7 @@
         "name": "Company Management",
         "url": "https://vionakaleb.github.io/company-management",
         "github": "https://github.com/vionakaleb/company-management",
-        "technology": ["ReactJS", "Typescript", "Redux", "Tailwind"]
+        "technology": ["React.js", "Typescript", "Redux", "Tailwind"]
       },
       {
         "name": "Company Management API",
