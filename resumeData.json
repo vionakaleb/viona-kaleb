@@ -1,7 +1,7 @@
 {
   "main": {
-    "name": "Viona Z. A. Kaleb",
-    "fullname": "Viona Zatil Aqmar Kaleb",
+    "name": "Viona K.",
+    "fullname": "Viona Kaleb",
     "description": "A Software Engineer",
     "image": "profilepic.jpg",
     "bg": "profile-bg.JPG",
@@ -81,29 +81,6 @@
       }
     ],
     "work": [  
-      {
-        "company": "HypeStacks",
-        "title": "Front-End Web Developer",
-        "years": "2023",
-        "description": "Working for a multi-national company.",
-        "descriptions": [
-          "Front End Developer, using React.js, Next.js & Typescript:",
-          "Creating a Dashboard for trading app. Slicing designs & develop features.",
-          "",
-          "Associate .NET Developer:",
-          "Helping to develop logic, DynamoDB queries & Lambda functions.",
-          "",
-          "Associate Data Analyst:",
-          "Transforming, DAX querying & building trading data visualizations using Microsoft Power BI."
-        ],
-        "projects": [
-          "Trading Dashboard",
-          "Data Visualizations"
-        ],
-        "website": "https://hypestacks.com/",
-        "skills": ["Next.js", "React.js" , "Typescript" , "Power BI DAX", ".NET" ],
-        "logo": "company-hypestacks.jpeg"
-      },
       {
         "company": "Aplikasi Super",
         "title": "Front-End Web Developer",
